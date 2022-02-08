@@ -42,7 +42,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 
 # Papers & Code
-We show the papers and the corresponding implementation code (the unofficial code is marked with *).
+> We list the papers and the corresponding implementation code (the unofficial code is marked with *).
 
 ## Survey
 - Domain Generalization in Vision: A Survey [[arXiv 2021](https://arxiv.org/abs/2103.02503)]
