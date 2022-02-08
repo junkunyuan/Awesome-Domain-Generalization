@@ -34,7 +34,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - [Datasets](#datasets)
 - [Paper Index](#paper-index)
 - [Libraries](#libraries)
-- [Lectures & Tutorials & Talks](#lectures--turorials--talks)
+- [Lectures & Tutorials & Talks](#lectures--tutorials--talks)
 - [Other Resources](#other-resources)
 - [Contributing & Contact](#contributing-contact)
 - [Acknowledgements](#acknowledgements)
