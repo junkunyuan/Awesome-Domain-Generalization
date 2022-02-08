@@ -327,7 +327,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 > Evaluations on the following datasets often follow leave-one-domain-out protocol: randomly choose one domain to hold out as the target domain, while the others are used as the  source domain(s). You may click the dataset names to download them.
 
 | Datasets | Samples | Task | Description | Related papers |
-| :---- | :----: | :----: | :----: | :----: | :----: |
+| :---- | :----: | :----: | :----: | :----: |
 | **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | 7,000 | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75} | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
 | **Digits-DG** [28] | 24,000 | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]} | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160] |
 | **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | 10,729 | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]} | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161] |
