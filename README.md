@@ -33,12 +33,11 @@ If you would like to contribute to our repository or have any questions/advice, 
         - [Life-Long Learning](#life-long-learning)
 - [Datasets](#datasets)
 - [Paper Index](#paper-index)
-- [Library](#library)
-
+- [Libraries](#libraries)
+- [Lectures & Tutorials & Talks](#lectures--turorials--talks)
 - [Other Resources](#other-resources)
 - [Contributing & Contact](#contributing-contact)
 - [Acknowledgements](#acknowledgements)
-<!-- - [Lectures & Tutorials](#lectures-tutorials) -->
 
 
 
@@ -325,21 +324,21 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 - Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Volpi_Continual_Adaptation_of_Visual_Representations_via_Domain_Randomization_and_Meta-Learning_CVPR_2021_paper.pdf)]
 
 # Datasets
-> Evaluations on the following datasets often follow leave-one-domain-out protocol: randomly choose one domain to hold out as the target domain, while the others are used as the  source domain(s).
+> Evaluations on the following datasets often follow leave-one-domain-out protocol: randomly choose one domain to hold out as the target domain, while the others are used as the  source domain(s). You may click the dataset names to download them.
 
 | Datasets | Samples | Domains | Task | Description | Related papers |
 | :---- | :----: | :----: | :----: | :----: | :----: |
-| [**Rotated MNIST**](https://github.com/Emma0118/mate) [6] | 7,000 | 6 | Handwritten digit recognition | Rotated degree: {0, 15, 30, 45, 60, 75} | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
+| **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | 7,000 | 6 | Handwritten digit recognition | Rotated degree: {0, 15, 30, 45, 60, 75} | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
 | **Digits-DG** [28] | 24,000 | 4 | Handwritten digit recognition | Domain: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]} | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160] |
-| [**VLCS**](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file) [16] | 10,729 | 4 | Object recognition | Domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]} | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161] |
-| **Office31** [32] | 4,652 | 3 | Object recognition | Domains: {Amazon, Webcam, DSLR} | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131] | 
-| [**OfficeHome**](https://www.hemanthdv.org/officeHomeDataset.html) [20] | 15,588 | 4 | Object recognition | Domains: {art, clipart, product, real} | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163] |
-| [**PACS**](https://dali-dl.github.io/project_iccv2017.html) [2] | 9,991 | 4 | Object recognition | Domains: {photo, art, cartoon, sketch} | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163] |
+| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | 10,729 | 4 | Object recognition | Domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]} | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161] |
+| **[Office31+Caltech](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)** [32] | 4,652 (office31); 2,533 (office31+caltech) | 3 (office31); 4 (office31+caltech) | Object recognition | Domains: {Amazon, Webcam, DSLR, Caltech} | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131] | 
+| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | 15,588 | 4 | Object recognition | Domains: {art, clipart, product, real} | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163] |
+| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | 9,991 | 4 | Object recognition | Domains: {photo, art, cartoon, sketch} | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163] |
 | **DomainNet** [33] | 586,575 | 6 | Object recognition | Domains: {clipart, infograph, painting, quick-draw, real, sketch} | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150] |
 | **mini-DomainNet** [34] |  140,006 | 4 | Object recognition | A smaller and less noisy version of DomainNet; Domains: {clipart, painting, real, sketch} | [34], [69], [130], [156], [157] |
 **ImageNet-Sketch** [35] | 50,000 | 2 | Object recognition | Domains: {real, sketch} | [64] |
 **VisDA-17** [36] | 280,157 | 3 | Object recognition | Synthetic-to-real generalization | [119] |
-**CIFAR-10-C / CIFAR-100-C / ImageNet-C** [37] | 60,000 / 60,000 / 1.3M | - | Object recognition | The test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital) | [27], [74], [116], [141], [151] |
+**CIFAR-10-C** / **CIFAR-100-C** / **[ImageNet-C](https://github.com/hendrycks/robustness/)** [37] | 60,000 / 60,000 / 1.3M | - | Object recognition | The test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital) | [27], [74], [116], [141], [151] |
 | **Visual Decathlon** [38] | 1,659,142 | 10 | Object/action/handwritten/digit recognition | Combination of 10 datasets | [128] |
 **IXMAS** [39] | 1,650 | 5 | Action recognition | 5 camera views; 10 subjects; 5 actions | [7], [14], [67], [76] |
 **UCF-HMDB** [40], [41] | 3809 | 2 | Action recognition | 12 overlapping actions |  |
@@ -347,8 +346,8 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 **GTA5-Cityscapes** [43], [44] | 29,966 | 2 | Semantic segmentation | Synthetic-to-real generalization | [62], [115] |
 **TerraInc** [45] | 24,788 | 4 | Animal classification | Captured at different geographical locations | [132], [136], [138], [140] |
 **Market-Duke** [46], [47] | 69,079 | 2 | Person re-idetification | Cross-dataset re-ID; heterogeneous DG | [12], [13], [28], [55], [56], [58], [114], [144] |
-**Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
-**COMI** [48], [49], [50], [51] | 8500 | 4 | Face anti-spoofing | Combination of 4 face anti-spoofing datasets |  |
+<!-- **Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
+**COMI** [48], [49], [50], [51] | 8500 | 4 | Face anti-spoofing | Combination of 4 face anti-spoofing datasets |  | -->
 
 
 
@@ -686,18 +685,31 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 
 
 
-# Library
-- [Dassl: A PyTorch toolbox for domain adaptation, semi-supervised learning, and domain generalization](https://github.com/KaiyangZhou/Dassl.pytorch) 
+# Libraries
+> We list the GitHub libraries of domain generalization (sorted by stars).
 
-<!-- # Lectures & Tutorials -->
+- [DeepDG](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG): Deep Domain Generalization Toolkit.
+- [Transfer Learning Library](https://github.com/thuml/Transfer-Learning-Library) for Domain Adaptation, Task Adaptation, and Domain Generalization.
+- [DomainBed](https://github.com/facebookresearch/DomainBed) [134] is a suite to test domain generalization algorithms.
+- [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch): A PyTorch toolbox for domain adaptation, semi-supervised learning, and domain generalization.
+
+
+
+# Lectures & Tutorials & Talks
+- **(Talk)** Generalizing to Unseen Domains: A Survey on Domain Generalization [155]. [[Jindong Wang (MSRA), in Chinese](https://www.bilibili.com/video/BV1ro4y1S7dd/)]
+
+
 # Other Resources
-- Adaptation and Generalization Across Domains in Visual Recognition with Deep Neural Networks [[PhD 2020](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Adaptation-and-Generalization-Across-Domains-in/99513024202346)]
+- A collection of domain generalization papers organized by  [amber0309](https://github.com/amber0309/Domain-generalization).
+- A collection of domain generalization papers organized by [jindongwang](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization).
+- A collection of papers on domain generalization, domain adaptation, causality, robustness, prompt, optimization, generative model, etc, organized by [yfzhang114](https://github.com/yfzhang114/Generalization-Causality).
+- Adaptation and Generalization Across Domains in Visual Recognition with Deep Neural Networks [[PhD 2020, Kaiyang Zhou (University of Surrey)](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Adaptation-and-Generalization-Across-Domains-in/99513024202346)]
 
 # Contributing & Contact
 Feel free to contribute to our repository.
 
 - If you woulk like to **correct mistakes**, please do it directly;
-- If you would like to **add/update papers**, please do the following tasks in turn (if necessary):
+- If you would like to **add/update papers**, please finish the following tasks in turn (if necessary):
     1. Update [Paper Index](#paper-index).
     2. Update [Papers & Code](#papers-code). 
     3. Update [Datasets](#datasets) with reference of [Paper Index](#paper-index).
