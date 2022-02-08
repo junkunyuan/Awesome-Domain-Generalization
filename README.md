@@ -341,11 +341,11 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 **CIFAR-10-C** / **CIFAR-100-C** / **[ImageNet-C](https://github.com/hendrycks/robustness/)** [37] | Object recognition | The test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital); 60,000/60,000/1.3M samples | [27], [74], [116], [141], [151] |
 | **Visual Decathlon (VD)** [38] | Object/action/handwritten/digit recognition | 10 domains from the combination of 10 datasets; 1,659,142 samples | [5], [7], [128] |
 **IXMAS** [39] | Action recognition | 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
-<!-- **UCF-HMDB** [40], [41] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
 **SYNTHIA** [42] | Semantic segmentation | 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151] | 
 **GTA5-Cityscapes** [43], [44] | Semantic segmentation | 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115] |
 **TerraInc** [45] | Animal classification | 4 domains captured at different geographical locations; 24,788 samples | [132], [136], [138], [140] |
 **Market-Duke** [46], [47] | Person re-idetification | Cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144] |
+<!-- **UCF-HMDB** [40], [41] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
 <!-- **Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
 **COMI** [48], [49], [50], [51] | 8500 | 4 | Face anti-spoofing | Combination of 4 face anti-spoofing datasets |  | -->
 
