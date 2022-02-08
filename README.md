@@ -326,26 +326,26 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 # Datasets
 > Evaluations on the following datasets often follow leave-one-domain-out protocol: randomly choose one domain to hold out as the target domain, while the others are used as the  source domain(s). You may click the dataset names to download them.
 
-| Datasets | Samples | Task | Description | Related papers |
-| :---- | :----: | :----: | :----: | :----: |
-| **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | 7,000 | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75} | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
-| **Digits-DG** [28] | 24,000 | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]} | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160] |
-| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | 10,729 | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]} | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161] |
-| **[Office31+Caltech](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)** [32] | 4,652 (office31); 2,533 (office31+caltech) | Object recognition | 4 domains: {Amazon, Webcam, DSLR, Caltech} | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131] | 
-| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | 15,588 | Object recognition | 4 domains: {art, clipart, product, real} | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163] |
-| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | 9,991 | Object recognition | 4 domains: {photo, art, cartoon, sketch} | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163] |
-| **DomainNet** [33] | 586,575 | Object recognition | 6 domains: {clipart, infograph, painting, quick-draw, real, sketch} | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150] |
-| **mini-DomainNet** [34] |  140,006 | Object recognition | A smaller and less noisy version of DomainNet; 4 domains: {clipart, painting, real, sketch} | [34], [69], [130], [156], [157] |
-**ImageNet-Sketch** [35] | 50,000 | Object recognition | 2 domains: {real, sketch} | [64] |
-**VisDA-17** [36] | 280,157 | Object recognition | 3 domains of synthetic-to-real generalization | [119] |
-**CIFAR-10-C** / **CIFAR-100-C** / **[ImageNet-C](https://github.com/hendrycks/robustness/)** [37] | 60,000 / 60,000 / 1.3M | Object recognition | The test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital) | [27], [74], [116], [141], [151] |
-| **Visual Decathlon** [38] | 1,659,142 | Object/action/handwritten/digit recognition | 10 domains from the combination of 10 datasets | [128] |
-**IXMAS** [39] | 1,650 | Action recognition | 5 domains with 5 camera views, 10 subjects, and 5 actions | [7], [14], [67], [76] |
-**UCF-HMDB** [40], [41] | 3809 | Action recognition | 2 domains with 12 overlapping actions |  |
-**SYNTHIA** [42] | 2,700 | Semantic segmentation | 15 domains with 4 locations and 5 weather conditions | [27], [62], [115], [141], [151] | 
-**GTA5-Cityscapes** [43], [44] | 29,966 | Semantic segmentation | 2 domains of synthetic-to-real generalization | [62], [115] |
-**TerraInc** [45] | 24,788 | Animal classification | 4 domains captured at different geographical locations | [132], [136], [138], [140] |
-**Market-Duke** [46], [47] | 69,079 | Person re-idetification | Cross-dataset re-ID; heterogeneous DG with 2 domains | [12], [13], [28], [55], [56], [58], [114], [144] |
+| Datasets | Task | Description | Related papers |
+| :---- | :----: | :----: | :----: |
+| **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
+| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160] |
+| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]}; 10,729 samples | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161] |
+| **[Office31+Caltech](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)** [32] | Object recognition | 4 domains: {Amazon, Webcam, DSLR, Caltech}; 4,652 (office31) or 2,533 (office31+caltech) samples | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131] | 
+| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | Object recognition | 4 domains: {art, clipart, product, real}; 15,588 samples | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163] |
+| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | Object recognition | 4 domains: {photo, art, cartoon, sketch}; 9,991 samples | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163] |
+| **DomainNet** [33] | Object recognition | 6 domains: {clipart, infograph, painting, quick-draw, real, sketch}; 586,575 samples | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150] |
+| **mini-DomainNet** [34] | Object recognition | A smaller and less noisy version of DomainNet; 4 domains: {clipart, painting, real, sketch}; 140,006 samples | [34], [69], [130], [156], [157] |
+**ImageNet-Sketch** [35] | Object recognition | 2 domains: {real, sketch}; 50,000 samples | [64] |
+**VisDA-17** [36] | Object recognition | 3 domains of synthetic-to-real generalization; 280,157 samples | [119] |
+**CIFAR-10-C** / **CIFAR-100-C** / **[ImageNet-C](https://github.com/hendrycks/robustness/)** [37] | Object recognition | The test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital); 60,000/60,000/1.3M samples | [27], [74], [116], [141], [151] |
+| **Visual Decathlon (VD)** [38] | Object/action/handwritten/digit recognition | 10 domains from the combination of 10 datasets; 1,659,142 samples | [5], [7], [128] |
+**IXMAS** [39] | Action recognition | 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
+<!-- **UCF-HMDB** [40], [41] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
+**SYNTHIA** [42] | Semantic segmentation | 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151] | 
+**GTA5-Cityscapes** [43], [44] | Semantic segmentation | 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115] |
+**TerraInc** [45] | Animal classification | 4 domains captured at different geographical locations; 24,788 samples | [132], [136], [138], [140] |
+**Market-Duke** [46], [47] | Person re-idetification | Cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144] |
 <!-- **Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
 **COMI** [48], [49], [50], [51] | 8500 | 4 | Face anti-spoofing | Combination of 4 face anti-spoofing datasets |  | -->
 
