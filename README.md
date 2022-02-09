@@ -6,7 +6,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 # Contents
 - [Awesome-Domain-Generalization](#awesome-domain-generalization)
 - [Contents](#contents)
-- [Papers & Code](#papers--code)
+- [Papers](#papers)
     - [Survey](#survey)
     - [Theory & Analysis](#theory--analysis)
     - [Domain Generalization](#domain-generalization)
@@ -41,12 +41,12 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 
 
-# Papers & Code
-> We list the papers and the corresponding implementation code (the unofficial code is marked with *).
+# Papers
+> We list the papers and the corresponding implementation code (the unofficial code is marked with *), etc.
 
 ## Survey
 - Domain Generalization in Vision: A Survey [[arXiv 2021](https://arxiv.org/abs/2103.02503)]
-- Generalizing to Unseen Domains: A Survey on Domain Generalization [[IJCAI 2021](https://arxiv.53yu.com/pdf/2103.03097)]
+- Generalizing to Unseen Domains: A Survey on Domain Generalization [[IJCAI 2021](https://arxiv.53yu.com/pdf/2103.03097)] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)]
 
 
 ## Theory & Analysis
@@ -125,6 +125,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.LeHS.pdf)]
 - FSDR: Frequency Space Domain Randomization for Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Huang_FSDR_Frequency_Space_Domain_Randomization_for_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/jxhuang0508/FSDR)]
 - FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.pdf)] [[Code](https://github.com/liuquande/FedDG-ELCFS)]
+- Uncertainty-guided Model Generalization to Unseen Domains [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.pdf)] [[Code](https://github.com/joffery/UMGUD)]
 - Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Volpi_Continual_Adaptation_of_Visual_Representations_via_Domain_Randomization_and_Meta-Learning_CVPR_2021_paper.pdf)]
 - A Fourier-Based Framework for Domain Generalization [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Xu_A_Fourier-Based_Framework_for_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/MediaBrain-SJTU/FACT)]
 - Open Domain Generalization with Domain-Augmented Meta-Learning [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Shu_Open_Domain_Generalization_with_Domain-Augmented_Meta-Learning_CVPR_2021_paper.pdf)] [[Code](https://github.com/thuml/OpenDG-DAML)]
@@ -149,6 +150,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 - Frustratingly Simple Domain Generalization via Image Stylization [[arXiv 2020](https://arxiv.53yu.com/pdf/2006.11207)] [[Code](https://github.com/GT-RIPL/DomainGeneralization-Stylization)]
 - MetaNorm: Learning to Normalize Few-Shot Batches Across Domains [[ICLR 2021](https://openreview.net/pdf?id=9z_dNsC4B5t)] [[Code](https://github.com/YDU-AI/MetaNorm)]
 - Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_to_Generalize_Unseen_Domains_via_Memory-based_Multi-Source_Meta-Learning_for_CVPR_2021_paper.pdf)] [[Code](https://github.com/HeliosZhao/M3L)]
+- Uncertainty-guided Model Generalization to Unseen Domains [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.pdf)] [[Code](https://github.com/joffery/UMGUD)]
 - Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Volpi_Continual_Adaptation_of_Visual_Representations_via_Domain_Randomization_and_Meta-Learning_CVPR_2021_paper.pdf)]
 - Meta Batch-Instance Normalization for Generalizable Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_Meta_Batch-Instance_Normalization_for_Generalizable_Person_Re-Identification_CVPR_2021_paper.pdf)] [[Code](https://github.com/bismex/MetaBIN)]
 - Open Domain Generalization with Domain-Augmented Meta-Learning [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Shu_Open_Domain_Generalization_with_Domain-Augmented_Meta-Learning_CVPR_2021_paper.pdf)] [[Code](https://github.com/thuml/OpenDG-DAML)]
@@ -271,6 +273,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 
 - Learning to Learn Single Domain Generalization [[CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qiao_Learning_to_Learn_Single_Domain_Generalization_CVPR_2020_paper.pdf)] [[Code](https://github.com/joffery/M-ADA)]
 - Out-of-domain Generalization from a Single Source: A Uncertainty Quantification Approach [[arXiv 2021](https://arxiv.53yu.com/pdf/2108.02888)]
+- Uncertainty-guided Model Generalization to Unseen Domains [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.pdf)] [[Code](https://github.com/joffery/UMGUD)]
 - Adversarially Adaptive Normalization for Single Domain Generalization [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Adversarially_Adaptive_Normalization_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)]
 - Progressive Domain Expansion Network for Single Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/lileicv/PDEN)]
 - Learning To Diversify for Single Domain Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Learning_To_Diversify_for_Single_Domain_Generalization_ICCV_2021_paper.pdf)] [[Code](https://github.com/BUserName/Learning)]
@@ -334,7 +337,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 | :---- | :----: | :----: | :----: |
 | **Colored MNIST** [165] | Handwritten digit recognition | 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165] |
 | **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
-| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166] |
+| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166], [168] |
 | **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]}; 10,729 samples of dimension (3, 224, 224); 5 classes | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161] |
 | **[Office31+Caltech](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)** [32] | Object recognition | 4 domains: {Amazon, Webcam, DSLR, Caltech}; 4,652 samples in 31 classes (office31) or 2,533 samples in 10 classes (office31+caltech) | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131], [167] | 
 | **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | Object recognition | 4 domains: {art, clipart, product, real}; 15,588 samples of dimension (3, 224, 224); 65 classes | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163], [167] |
@@ -343,7 +346,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 | **mini-DomainNet** [34] | Object recognition | A smaller and less noisy version of DomainNet; 4 domains: {clipart, painting, real, sketch}; 140,006 samples | [34], [69], [130], [156], [157] |
 **ImageNet-Sketch** [35] | Object recognition | 2 domains: {real, sketch}; 50,000 samples | [64] |
 **VisDA-17** [36] | Object recognition | 3 domains of synthetic-to-real generalization; 280,157 samples | [119] |
-**CIFAR-10-C** / **CIFAR-100-C** / **[ImageNet-C](https://github.com/hendrycks/robustness/)** [37] | Object recognition | The test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital); 60,000/60,000/1.3M samples | [27], [74], [116], [141], [151] |
+**CIFAR-10-C** / **CIFAR-100-C** / **[ImageNet-C](https://github.com/hendrycks/robustness/)** [37] | Object recognition | The test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital); 60,000/60,000/1.3M samples | [27], [74], [116], [141], [151], [168] |
 | **Visual Decathlon (VD)** [38] | Object/action/handwritten/digit recognition | 10 domains from the combination of 10 datasets; 1,659,142 samples | [5], [7], [128] |
 **IXMAS** [39] | Action recognition | 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
 **SYNTHIA** [42] | Semantic segmentation | 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151] | 
@@ -668,7 +671,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 
 [154] On Calibration and Out-of-domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/118bd558033a1016fcc82560c65cca5f-Paper.pdf)] *([domain alignment](#domain-alignment-based-methods), [causality](#causality-based-methods))*
 
-[155] Generalizing to Unseen Domains: A Survey on Domain Generalization [[IJCAI 2021](https://arxiv.53yu.com/pdf/2103.03097)] *([survey](#survey))*
+[155] Generalizing to Unseen Domains: A Survey on Domain Generalization [[IJCAI 2021](https://arxiv.53yu.com/pdf/2103.03097)] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)] *([survey](#survey))*
 
 [156] Better Pseudo-label Joint Domain-aware Label and Dual-classifier for Semi-supervised Domain Generalization [[arXiv 2021](https://arxiv.53yu.com/pdf/2110.04820)] *([data augmentation](#data-augmentation-based-methods),  [semi-supervised domain generalization](#semi-supervised-domain-generalization))*
 
@@ -694,6 +697,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 
 [167] Multi-component Image Translation for Deep Domain Generalization [[WACV 2019](https://arxiv.53yu.com/pdf/1812.08974)] [[Code](https://github.com/mahfujur1/mit-DG)] *([data augmentation](#data-augmentation-based-methods))*
 
+[168] Uncertainty-guided Model Generalization to Unseen Domains [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.pdf)] [[Code](https://github.com/joffery/UMGUD)] *([data augmentation](#data-augmentation-based-methods), [meta-learning](#meta-learning-based-methods), [single domain generalization](#single-domain-generalization))*
 
 
 # Libraries
@@ -707,8 +711,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 
 
 # Lectures & Tutorials & Talks
-- **(Talk)** Generalizing to Unseen Domains: A Survey on Domain Generalization [155]. [[Jindong Wang (MSRA), in Chinese](https://www.bilibili.com/video/BV1ro4y1S7dd/)]
-
+- **(Talk 2021)** Generalizing to Unseen Domains: A Survey on Domain Generalization [155]. [[Video]((https://www.bilibili.com/video/BV1ro4y1S7dd/))] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)] *(Jindong Wang (MSRA), in Chinese)*
 
 # Other Resources
 - A collection of domain generalization papers organized by  [amber0309](https://github.com/amber0309/Domain-generalization).
