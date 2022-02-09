@@ -370,7 +370,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 
 
 # Lectures & Tutorials & Talks
-- **(Talk 2021)** Generalizing to Unseen Domains: A Survey on Domain Generalization [155]. [[Video]((https://www.bilibili.com/video/BV1ro4y1S7dd/))] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)] *(Jindong Wang (MSRA), in Chinese)*
+- **(Talk 2021)** Generalizing to Unseen Domains: A Survey on Domain Generalization [155]. [[Video](https://www.bilibili.com/video/BV1ro4y1S7dd/)] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)] *(Jindong Wang (MSRA), in Chinese)*
 
 # Other Resources
 - A collection of domain generalization papers organized by  [amber0309](https://github.com/amber0309/Domain-generalization).
