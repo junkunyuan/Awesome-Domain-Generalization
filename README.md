@@ -66,6 +66,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Robust Domain Generalisation by Enforcing Distribution Invariance [[IJCAI 2016](https://eprints.qut.edu.au/115382/15/Erfani2016IJCAI.pdf)]
 - Scatter Component Analysis A Unified Framework for Domain Adaptation and Domain Generalization [[TPAMI 2017](https://arxiv.53yu.com/pdf/1510.04373)]
 - Unified Deep Supervised Domain Adaptation and Generalization [[ICCV 2017](https://openaccess.thecvf.com/content_ICCV_2017/papers/Motiian_Unified_Deep_Supervised_ICCV_2017_paper.pdf)] [[Code](https://github.com/samotiian/CCSA)]
+- Beyond Domain Adaptation: Unseen Domain Encapsulation via Universal Non-volume Preserving Models [[arXiv 2018](https://arxiv.53yu.com/pdf/1812.03407)]
 - Domain Generalization via Conditional Invariant Representation [[AAAI 2018](https://ojs.aaai.org/index.php/AAAI/article/view/11682/11541)]
 - Domain Generalization with Adversarial Feature Learning [[CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Domain_Generalization_With_CVPR_2018_paper.pdf)] [[Code](https://github.com/YuqiCui/MMD_AAE)]
 - Deep Domain Generalization via Conditional Invariant Adversarial Networks [[ECCV 2018](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ya_Li_Deep_Domain_Generalization_ECCV_2018_paper.pdf)]
@@ -99,6 +100,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Generalizing across Domains via Cross-Gradient Training [[ICLR 2018](https://arxiv.53yu.com/pdf/1804.10745)] [[Code](https://github.com/vihari/crossgrad)]
 - Generalizing to Unseen Domains via Adversarial Data Augmentation [[NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/1d94108e907bb8311d8802b48fd54b4a-Paper.pdf)] [[Code](https://github.com/ricvolpi/generalize-unseen-domains)]
 - Staining Invariant Features for Improving Generalization of Deep Convolutional Neural Networks in Computational Pathology [[Frontiers in Bioengineering and Biotechnology 2019](https://www.frontiersin.org/articles/10.3389/fbioe.2019.00198/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Bioengineering_and_Biotechnology&id=474781)]
+- Multi-component Image Translation for Deep Domain Generalization [[WACV 2019](https://arxiv.53yu.com/pdf/1812.08974)] [[Code](https://github.com/mahfujur1/mit-DG)]
 - Domain Generalization by Solving Jigsaw Puzzles [[CVPR 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Carlucci_Domain_Generalization_by_Solving_Jigsaw_Puzzles_CVPR_2019_paper.pdf)] [[Code](https://github.com/fmcarlucci/JigenDG)]
 - Addressing Model Vulnerability to Distributional Shifts Over Image Transformation Sets [[ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Volpi_Addressing_Model_Vulnerability_to_Distributional_Shifts_Over_Image_Transformation_Sets_ICCV_2019_paper.pdf)] [[Code](https://github.com/ricvolpi/domain-shift-robustness)]
 - Domain Randomization and Pyramid Consistency: Simulation-to-Real Generalization Without Accessing Target Domain Data [[ICCV 2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yue_Domain_Randomization_and_Pyramid_Consistency_Simulation-to-Real_Generalization_Without_Accessing_Target_ICCV_2019_paper.pdf)] [[Code](https://github.com/xyyue/DRPC)]
@@ -274,7 +276,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 - Learning To Diversify for Single Domain Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Learning_To_Diversify_for_Single_Domain_Generalization_ICCV_2021_paper.pdf)] [[Code](https://github.com/BUserName/Learning)]
 
 ## Semi-Supervised Domain Generalization
-> Semi-supervised domain generalization assumes a part of the source data is unlabeled. 
+> Semi-supervised domain generalization assumes that a part of the source data is unlabeled. 
 
 - Visual recognition by learning from web data: A weakly supervised domain generalization approach [[CVPR 2015](https://openaccess.thecvf.com/content_cvpr_2015/papers/Niu_Visual_Recognition_by_2015_CVPR_paper.pdf)]
 - Visual Recognition by Learning From Web Data via Weakly Supervised Domain Generalization [[TNNLS 2017](https://bcmi.sjtu.edu.cn/home/niuli/paper/Visual%20Recognition%20by%20Learning%20From%20Web%20Data%20via%20Weakly%20Supervised%20Domain%20Generalization.pdf)]
@@ -330,14 +332,14 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 
 | Datasets | Task | Description | Related papers |
 | :---- | :----: | :----: | :----: |
-| Colored MNIST [165] | Handwritten digit recognition | 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2,28,28); 2 classes | [82], [138], [140], [149], [152], [154], [165] |
-| **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1,28,28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
-| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160] |
-| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]}; 10,729 samples of dimension (3,224,224); 5 classes | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161] |
-| **[Office31+Caltech](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)** [32] | Object recognition | 4 domains: {Amazon, Webcam, DSLR, Caltech}; 4,652 samples in 31 classes (office31) or 2,533 samples in 10 classes (office31+caltech) | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131] | 
-| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | Object recognition | 4 domains: {art, clipart, product, real}; 15,588 samples of dimension (3,224,224); 65 classes | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163] |
-| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | Object recognition | 4 domains: {photo, art, cartoon, sketch}; 9,991 samples of dimension (3,224,224); 7 classes | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163] |
-| **DomainNet** [33] | Object recognition | 6 domains: {clipart, infograph, painting, quick-draw, real, sketch}; 586,575 samples of dimension (3,224,224); 345 classes | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150] |
+| **Colored MNIST** [165] | Handwritten digit recognition | 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165] |
+| **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
+| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166] |
+| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]}; 10,729 samples of dimension (3, 224, 224); 5 classes | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161] |
+| **[Office31+Caltech](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)** [32] | Object recognition | 4 domains: {Amazon, Webcam, DSLR, Caltech}; 4,652 samples in 31 classes (office31) or 2,533 samples in 10 classes (office31+caltech) | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131], [167] | 
+| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | Object recognition | 4 domains: {art, clipart, product, real}; 15,588 samples of dimension (3, 224, 224); 65 classes | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163], [167] |
+| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | Object recognition | 4 domains: {photo, art, cartoon, sketch}; 9,991 samples of dimension (3, 224, 224); 7 classes | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163], [167] |
+| **DomainNet** [33] | Object recognition | 6 domains: {clipart, infograph, painting, quick-draw, real, sketch}; 586,575 samples of dimension (3, 224, 224); 345 classes | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150] |
 | **mini-DomainNet** [34] | Object recognition | A smaller and less noisy version of DomainNet; 4 domains: {clipart, painting, real, sketch}; 140,006 samples | [34], [69], [130], [156], [157] |
 **ImageNet-Sketch** [35] | Object recognition | 2 domains: {real, sketch}; 50,000 samples | [64] |
 **VisDA-17** [36] | Object recognition | 3 domains of synthetic-to-real generalization; 280,157 samples | [119] |
@@ -346,7 +348,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 **IXMAS** [39] | Action recognition | 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
 **SYNTHIA** [42] | Semantic segmentation | 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151] | 
 **GTA5-Cityscapes** [43], [44] | Semantic segmentation | 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115] |
-**Terra Incognita** [45] | Animal classification | 4 domains captured at different geographical locations: {L100, L38, L43, L46}; 24,788 samples of dimension (3,224,224); 10 classes | [132], [136], [138], [140] |
+**Terra Incognita** [45] | Animal classification | 4 domains captured at different geographical locations: {L100, L38, L43, L46}; 24,788 samples of dimension (3, 224, 224); 10 classes | [132], [136], [138], [140] |
 **Market-Duke** [46], [47] | Person re-idetification | Cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144] |
 <!-- **UCF-HMDB** [40], [41] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
 <!-- **Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
@@ -687,6 +689,10 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 [164] Adaptation and Generalization Across Domains in Visual Recognition with Deep Neural Networks [[PhD 2020](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Adaptation-and-Generalization-Across-Domains-in/99513024202346)] *([other resources](#other-resources))*
 
 [165] Invariant Risk Minimization [[arXiv 2019](https://arxiv.53yu.com/pdf/1907.02893.pdf;)] [[Code](https://github.com/facebookresearch/InvariantRiskMinimization)] *(IRM, [regularization](#regularization-based-methods), [causality](#causality-based-methods))*
+
+[166] Beyond Domain Adaptation: Unseen Domain Encapsulation via Universal Non-volume Preserving Models [[arXiv 2018](https://arxiv.53yu.com/pdf/1812.03407)] *(UNVP, [domain alignment](#domain-alignment-based-methods))*
+
+[167] Multi-component Image Translation for Deep Domain Generalization [[WACV 2019](https://arxiv.53yu.com/pdf/1812.08974)] [[Code](https://github.com/mahfujur1/mit-DG)] *([data augmentation](#data-augmentation-based-methods))*
 
 
 
