@@ -32,10 +32,10 @@ If you would like to contribute to our repository or have any questions/advice, 
     - [Related Topics](#related-topics)
         - [Life-Long Learning](#life-long-learning)
 - [Datasets](#datasets)
-- [Paper Index](#paper-index)
 - [Libraries](#libraries)
 - [Lectures & Tutorials & Talks](#lectures--tutorials--talks)
 - [Other Resources](#other-resources)
+- [Paper Index](#paper-index)
 - [Contributing & Contact](#contributing-contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -333,7 +333,7 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 # Datasets
 > Evaluations on the following datasets often follow leave-one-domain-out protocol: randomly choose one domain to hold out as the target domain, while the others are used as the  source domain(s). You may click the dataset names to download them.
 
-| Datasets | Task | Description | Related papers |
+| Datasets | Task | Description | Related papers in [Paper Index](#paper-index) |
 | :---- | :----: | :----: | :----: |
 | **Colored MNIST** [165] | Handwritten digit recognition | 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165] |
 | **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140] |
@@ -356,6 +356,27 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 <!-- **UCF-HMDB** [40], [41] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
 <!-- **Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
 **COMI** [48], [49], [50], [51] | 8500 | 4 | Face anti-spoofing | Combination of 4 face anti-spoofing datasets |  | -->
+
+
+
+# Libraries
+> We list the GitHub libraries of domain generalization (sorted by stars).
+
+- [DeepDG](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG): Deep Domain Generalization Toolkit.
+- [Transfer Learning Library](https://github.com/thuml/Transfer-Learning-Library) for Domain Adaptation, Task Adaptation, and Domain Generalization.
+- [DomainBed](https://github.com/facebookresearch/DomainBed) [134] is a suite to test domain generalization algorithms.
+- [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch): A PyTorch toolbox for domain adaptation, semi-supervised learning, and domain generalization.
+
+
+
+# Lectures & Tutorials & Talks
+- **(Talk 2021)** Generalizing to Unseen Domains: A Survey on Domain Generalization [155]. [[Video]((https://www.bilibili.com/video/BV1ro4y1S7dd/))] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)] *(Jindong Wang (MSRA), in Chinese)*
+
+# Other Resources
+- A collection of domain generalization papers organized by  [amber0309](https://github.com/amber0309/Domain-generalization).
+- A collection of domain generalization papers organized by [jindongwang](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization).
+- A collection of papers on domain generalization, domain adaptation, causality, robustness, prompt, optimization, generative model, etc, organized by [yfzhang114](https://github.com/yfzhang114/Generalization-Causality).
+- Adaptation and Generalization Across Domains in Visual Recognition with Deep Neural Networks [[PhD 2020, Kaiyang Zhou (University of Surrey)](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Adaptation-and-Generalization-Across-Domains-in/99513024202346)]
 
 
 
@@ -700,24 +721,6 @@ Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.
 [168] Uncertainty-guided Model Generalization to Unseen Domains [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.pdf)] [[Code](https://github.com/joffery/UMGUD)] *([data augmentation](#data-augmentation-based-methods), [meta-learning](#meta-learning-based-methods), [single domain generalization](#single-domain-generalization))*
 
 
-# Libraries
-> We list the GitHub libraries of domain generalization (sorted by stars).
-
-- [DeepDG](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG): Deep Domain Generalization Toolkit.
-- [Transfer Learning Library](https://github.com/thuml/Transfer-Learning-Library) for Domain Adaptation, Task Adaptation, and Domain Generalization.
-- [DomainBed](https://github.com/facebookresearch/DomainBed) [134] is a suite to test domain generalization algorithms.
-- [Dassl](https://github.com/KaiyangZhou/Dassl.pytorch): A PyTorch toolbox for domain adaptation, semi-supervised learning, and domain generalization.
-
-
-
-# Lectures & Tutorials & Talks
-- **(Talk 2021)** Generalizing to Unseen Domains: A Survey on Domain Generalization [155]. [[Video]((https://www.bilibili.com/video/BV1ro4y1S7dd/))] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)] *(Jindong Wang (MSRA), in Chinese)*
-
-# Other Resources
-- A collection of domain generalization papers organized by  [amber0309](https://github.com/amber0309/Domain-generalization).
-- A collection of domain generalization papers organized by [jindongwang](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization).
-- A collection of papers on domain generalization, domain adaptation, causality, robustness, prompt, optimization, generative model, etc, organized by [yfzhang114](https://github.com/yfzhang114/Generalization-Causality).
-- Adaptation and Generalization Across Domains in Visual Recognition with Deep Neural Networks [[PhD 2020, Kaiyang Zhou (University of Surrey)](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Adaptation-and-Generalization-Across-Domains-in/99513024202346)]
 
 # Contributing & Contact
 Feel free to contribute to our repository.
