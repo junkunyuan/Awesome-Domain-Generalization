@@ -23,7 +23,7 @@ If you would like to contribute to our repository or have any questions/advice, 
         - [Inference-Time-Based Methods](#inference-time-based-methods)
         - [Neural Architecture Search-based Methods](#neural-architecture-search-based-methods)
     - [Single Domain Generalization](#single-domain-generalization)
-    - [semi/weak/un-supervised domain generalization](#semiweakun-supervised-domain-generalization)
+    - [Semi/Weak/Un-Supervised Domain Generalization](#semiweakun-supervised-domain-generalization)
     - [Open/Heterogeneous Domain Generalization](#openheterogeneous-domain-generalization)
     - [Federated Domain Generalization](#federated-domain-generalization)
     - [Applications](#applications)
@@ -42,7 +42,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 
 # Papers
-> We list papers, implementation code (the unofficial code is marked with *), etc.
+> We list papers, implementation code (the unofficial code is marked with *), etc. Note that some papers may fall into multiple categories.
 
 ## Survey
 - Domain Generalization in Vision: A Survey [[arXiv 2021](https://arxiv.org/abs/2103.02503)]
@@ -51,6 +51,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 ## Theory & Analysis
 - A Generalization Error Bound for Multi-Class Domain Generalization [[arXiv 2019](https://arxiv.org/pdf/1905.10392)]
+- Domain Generalization by Marginal Transfer Learning [[JMLR 2021](https://www.jmlr.org/papers/volume22/17-679/17-679.pdf)] [[Code](https://github.com/aniketde/DomainGeneralizationMarginal)]
+- The Risks of Invariant Risk Minimization [[ICLR 2021](https://arxiv.org/pdf/2010.05761)]
 - In Search of Lost Domain Generalization [[ICLR 2021](https://arxiv.org/pdf/2007.01434.pdf?fbclid=IwAR1YkUXkIhC6fhr6eI687zBXo_W2tTjjTAFnyjEWvmq4gQKon_4pIDbTnQ4)]
 - The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Hendrycks_The_Many_Faces_of_Robustness_A_Critical_Analysis_of_Out-of-Distribution_ICCV_2021_paper.pdf)] [[Code](https://github.com/hendrycks/imagenet-r)]
 
@@ -76,6 +78,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Domain Generalization via Model-Agnostic Learning of Semantic Features [[NeurIPS 2019](https://proceedings.neurips.cc/paper/2019/file/2974788b53f73e7950e8aa49f3a306db-Paper.pdf)] [[Code](https://github.com/biomedia-mira/masf)]
 - Generalizing to Unseen Domains via Distribution Matching [[arXiv 2019](https://arxiv.53yu.com/pdf/1911.00804)] [[Code](https://github.com/belaalb/G2DM)]
 - Adversarial Invariant Feature Learning with Accuracy Constraint for Domain Generalization [[ECMLPKDD 2019](https://arxiv.53yu.com/pdf/1904.12543)] [[Code](https://github.com/akuzeee/AFLAC)]
+- Feature Alignment and Restoration for Domain Generalization and Adaptation [[arXiv 2020](https://arxiv.org/pdf/2006.12009)]
 - Representation via Representations: Domain Generalization via Adversarially Learned Invariant Representations [[arXiv 2020](https://arxiv.53yu.com/pdf/2006.11478)]
 - Feature alignment and restoration for domain generalization and adaptation [[arXiv 2020](https://arxiv.53yu.com/pdf/2006.12009)]
 - Single-Side Domain Generalization for Face Anti-Spoofing [[CVPR 2020](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jia_Single-Side_Domain_Generalization_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)] [[Code](https://github.com/taylover-pei/SSDG-CVPR2020)]
@@ -87,8 +90,11 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Domain Generalization via Entropy Regularization [[NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/file/b98249b38337c5088bbc660d8f872d6a-Paper.pdf)] [[Code](https://github.com/sshan-zhao/DG_via_ER)]
 - Correlation-aware Adversarial Domain Adaptation and Generalization [[PR 2020](https://arxiv.53yu.com/pdf/1911.12983)] [[Code](https://github.com/mahfujur1/CA-DA-DG)]
 - Multi-Domain Adversarial Feature Generalization for Person Re-Identification [[TIP 2021](https://ieeexplore.ieee.org/iel7/83/9263394/09311771.pdf)]
+- Iterative Feature Matching: Toward Provable Domain Generalization with Logarithmic Environments [[arXiv 2021](https://arxiv.org/pdf/2106.09913)]
+- Semi-Supervised Domain Generalization in RealWorld: New Benchmark and Strong Baseline [[arXiv 2021](https://arxiv.org/pdf/2111.10221)]
 - Collaborative Semantic Aggregation and Calibration for Separated Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2110.06736)] [[Code](https://github.com/junkunyuan/CSAC)]
 - Scale Invariant Domain Generalization Image Recapture Detection [[ICONIP 2021](https://arxiv.org/pdf/2110.03496)]
+- Domain Generalization under Conditional and Label Shifts via Variational Bayesian Inference [[IJCAI 2021](https://arxiv.org/pdf/2107.10931)]
 - Domain Generalization using Causal Matching [[ICML 2021](http://proceedings.mlr.press/v139/mahajan21b/mahajan21b.pdf)] [[Code](https://github.com/microsoft/robustdg)]
 - Generalization on Unseen Domains via Inference-Time Label-Preserving Target Projections [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Pandey_Generalization_on_Unseen_Domains_via_Inference-Time_Label-Preserving_Target_Projections_CVPR_2021_paper.pdf)] [[Code](https://github.com/yys-Polaris/InferenceTimeDG)]
 - Progressive Domain Expansion Network for Single Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/lileicv/PDEN)]
@@ -117,8 +123,10 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/2007.09316)] [[Code](https://github.com/emma-sjwang/EISNet)]
 - Towards Recognizing Unseen Categories in Unseen Domains [[ECCV 2020](https://arxiv.53yu.com/pdf/2007.12256.pdf?ref=https://githubhelp.com)] [[Code](https://github.com/mancinimassimiliano/CuMix)]
 - Rethinking Domain Generalization Baselines [[ICPR 2020](https://arxiv.53yu.com/pdf/2101.09060)]
+- More is Better: A Novel Multi-view Framework for Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2112.12329)]
 - Domain Generalization with Mixstyle [[ICLR 2021](https://arxiv.53yu.com/pdf/2104.02008)] [[Code](https://github.com/KaiyangZhou/mixstyle-release)]
 - Learning to Learn Single Domain Generalization [[CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qiao_Learning_to_Learn_Single_Domain_Generalization_CVPR_2020_paper.pdf)] [[Code](https://github.com/joffery/M-ADA)]
+- Domain Generalization by Marginal Transfer Learning [[JMLR 2021](https://www.jmlr.org/papers/volume22/17-679/17-679.pdf)] [[Code](https://github.com/aniketde/DomainGeneralizationMarginal)]
 - Robust and Generalizable Visual Representation Learning via Random Convolutions [[ICLR 2021](https://arxiv.53yu.com/pdf/2007.13003)] [[Code](https://github.com/wildphoton/RandConv)]
 - Semi-Supervised Domain Generalization with Stochastic StyleMatch [[arXiv 2021](https://arxiv.53yu.com/pdf/2106.00592)] [[Code](https://github.com/KaiyangZhou/ssdg-benchmark)]
 - Better Pseudo-label Joint Domain-aware Label and Dual-classifier for Semi-supervised Domain Generalization [[arXiv 2021](https://arxiv.53yu.com/pdf/2110.04820)]
@@ -151,6 +159,9 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Sequential Learning for Domain Generalization [[ECCV workshop 2020](https://arxiv.org/pdf/2004.01377)]
 - Shape-Aware Meta-Learning for Generalizing Prostate MRI Segmentation to Unseen Domains [[MICCAI 2020](https://arxiv.org/pdf/2007.02035)] [[Code](https://github.com/liuquande/SAML)]
 - Frustratingly Simple Domain Generalization via Image Stylization [[arXiv 2020](https://arxiv.53yu.com/pdf/2006.11207)] [[Code](https://github.com/GT-RIPL/DomainGeneralization-Stylization)]
+- More is Better: A Novel Multi-view Framework for Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2112.12329)]
+- Few-Shot Classification in Unseen Domains by Episodic Meta-Learning Across Visual Domains [[ICIP 2021](https://arxiv.org/pdf/2112.13539)]
+- Meta-Learned Feature Critics for Domain Generalized Semantic Segmentation [[ICIP 2021](https://arxiv.org/pdf/2112.13538)]
 - MetaNorm: Learning to Normalize Few-Shot Batches Across Domains [[ICLR 2021](https://openreview.net/pdf?id=9z_dNsC4B5t)] [[Code](https://github.com/YDU-AI/MetaNorm)]
 - Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_to_Generalize_Unseen_Domains_via_Memory-based_Multi-Source_Meta-Learning_for_CVPR_2021_paper.pdf)] [[Code](https://github.com/HeliosZhao/M3L)]
 - Uncertainty-guided Model Generalization to Unseen Domains [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Qiao_Uncertainty-Guided_Model_Generalization_to_Unseen_Domains_CVPR_2021_paper.pdf)] [[Code](https://github.com/joffery/UMGUD)]
@@ -179,6 +190,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Domain and Content Adaptive Convolution for Domain Generalization in Medical Image Segmentation [[arXiv 2021](https://arxiv.org/pdf/2109.05676)]
 - Dynamically Decoding Source Domain Knowledge for Unseen Domain Generalization [[arXiv 2021](https://www.researchgate.net/profile/Karthik-Nandakumar-3/publication/355142270_Dynamically_Decoding_Source_Domain_Knowledge_For_Unseen_Domain_Generalization/links/61debe18034dda1b9ef16fc6/Dynamically-Decoding-Source-Domain-Knowledge-For-Unseen-Domain-Generalization.pdf)]
 - Domain Adaptive Ensemble Learning [[TIP 2021](https://arxiv.53yu.com/pdf/2003.07325)] [[Code](https://github.com/KaiyangZhou/Dassl.pytorch)]
+- Generalizable Person Re-identification with Relevance-aware Mixture of Experts [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Generalizable_Person_Re-Identification_With_Relevance-Aware_Mixture_of_Experts_CVPR_2021_paper.pdf)]
 - Learning Transferrable and Interpretable Representations for Domain Generalization [[MM 2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475488)]
 - Embracing the Dark Knowledge: Domain Generalization Using Regularized Knowledge Distillation [[MM 2021](https://arxiv.53yu.com/pdf/2110.04820)]
 
@@ -199,6 +211,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Domain Generalisation with Domain Augmented Supervised Contrastive Learning [[AAAI Student Abstract 2021](https://www.aaai.org/AAAI21Papers/SA-197.LeHS.pdf)]
 - Progressive Domain Expansion Network for Single Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/lileicv/PDEN)]
 - FedDG: Federated Domain Generalization on Medical Image Segmentation via Episodic Learning in Continuous Frequency Space [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Liu_FedDG_Federated_Domain_Generalization_on_Medical_Image_Segmentation_via_Episodic_CVPR_2021_paper.pdf)] [[Code](https://github.com/liuquande/FedDG-ELCFS)]
+- Boosting the Generalization Capability in Cross-Domain Few-shot Learning via Noise-enhanced Supervised Autoencoder [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Boosting_the_Generalization_Capability_in_Cross-Domain_Few-Shot_Learning_via_Noise-Enhanced_ICCV_2021_paper.pdf)]
 - A Style and Semantic Memory Mechanism for Domain Generalization [[ICCV 2021](http://openaccess.thecvf.com/content/ICCV2021/papers/Chen_A_Style_and_Semantic_Memory_Mechanism_for_Domain_Generalization_ICCV_2021_paper.pdf)]
 - SelfReg: Self-Supervised Contrastive Regularization for Domain Generalization [[ICCV 2021](http://openaccess.thecvf.com/content/ICCV2021/papers/Kim_SelfReg_Self-Supervised_Contrastive_Regularization_for_Domain_Generalization_ICCV_2021_paper.pdf)]
 - Domain Generalization for Mammography Detection via Multi-style and Multi-view
@@ -216,6 +229,8 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Efficient Domain Generalization via Common-Specific Low-Rank Decomposition [[ICML 2020](http://proceedings.mlr.press/v119/piratla20a/piratla20a.pdf)] [[Code](https://github.com/vihari/CSD)]
 - Learning to Balance Specificity and Invariance for In and Out of Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/2008.12839)] [[Code](https://github.com/prithv1/DMG)]
 - Towards Principled Disentanglement for Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2111.13839)] [[Code](https://github.com/hlzhang109/DDG)]
+- Meta-Learned Feature Critics for Domain Generalized Semantic Segmentation [[ICIP 2021](https://arxiv.org/pdf/2112.13538)]
+- Robustnet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_RobustNet_Improving_Domain_Generalization_in_Urban-Scene_Segmentation_via_Instance_Selective_CVPR_2021_paper.pdf)] [[Code](https://github.com/shachoi/RobustNet)]
 - Shape-Biased Domain Generalization via Shock Graph Embeddings [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Narayanan_Shape-Biased_Domain_Generalization_via_Shock_Graph_Embeddings_ICCV_2021_paper.pdf)]
 - Domain-Invariant Disentangled Network for Generalizable Object Detection [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Domain-Invariant_Disentangled_Network_for_Generalizable_Object_Detection_ICCV_2021_paper.pdf)] 
 - Domain Generalization via Feature Variation Decorrelation [[MM 2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475311)]
@@ -229,8 +244,10 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Invariant Risk Minimization [[arXiv 2019](https://arxiv.53yu.com/pdf/1907.02893.pdf;)] [[Code](https://github.com/facebookresearch/InvariantRiskMinimization)]
 - Learning Robust Representations by Projecting Superficial Statistics Out [[ICLR 2019](https://arxiv.53yu.com/pdf/1903.06256)] [[Code](https://github.com/HaohanWang/HEX)]
 - Self-challenging Improves Cross-Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/2007.02454)] [[Code](https://github.com/DeLightCMU/RSC)]
+- Energy-based Out-of-distribution Detection [[NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/file/f5496252609c43eb8a3d147ab9b9c006-Paper.pdf)] [[Code](https://github.com/xieshuqin/Energy-OOD)]
 - Fishr: Invariant Gradient Variances for Our-of-distribution Generalization [[arXiv 2021](https://arxiv.org/pdf/2109.02934)] [[Code](https://github.com/alexrame/fishr)]
 - A Fourier-Based Framework for Domain Generalization [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Xu_A_Fourier-Based_Framework_for_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/MediaBrain-SJTU/FACT)]
+- Out-of-Distribution Generalization via Risk Extrapolation [[ICML 2021](http://proceedings.mlr.press/v139/krueger21a/krueger21a.pdf)]
 - Domain Generalization via Gradient Surgery [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mansilla_Domain_Generalization_via_Gradient_Surgery_ICCV_2021_paper.pdf)] [[Code](https://github.com/lucasmansilla/DGvGS)]
 - SelfReg: Self-Supervised Contrastive Regularization for Domain Generalization [[ICCV 2021](http://openaccess.thecvf.com/content/ICCV2021/papers/Kim_SelfReg_Self-Supervised_Contrastive_Regularization_for_Domain_Generalization_ICCV_2021_paper.pdf)]
 - Embracing the Dark Knowledge: Domain Generalization Using Regularized Knowledge Distillation [[MM 2021](https://arxiv.53yu.com/pdf/2110.04820)]
@@ -245,6 +262,7 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_to_Generalize_Unseen_Domains_via_Memory-based_Multi-Source_Meta-Learning_for_CVPR_2021_paper.pdf)] [[Code](https://github.com/HeliosZhao/M3L)]
 - Adversarially Adaptive Normalization for Single Domain Generalization [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Adversarially_Adaptive_Normalization_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)]
 - Collaborative Optimization and Aggregation for Decentralized Domain Generalization and Adaptation [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_Collaborative_Optimization_and_Aggregation_for_Decentralized_Domain_Generalization_and_Adaptation_ICCV_2021_paper.pdf)]
+- Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition [[WACV 2022](https://openaccess.thecvf.com/content/WACV2022/papers/Planamente_Domain_Generalization_Through_Audio-Visual_Relative_Norm_Alignment_in_First_Person_WACV_2022_paper.pdf)]
 
 ### Information-Based Methods
 > Information-based methods utilize techniques of information theory to realize domain generalization. 
@@ -259,6 +277,7 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 
 - Invariant Risk Minimization [[arXiv 2019](https://arxiv.53yu.com/pdf/1907.02893.pdf;)] [[Code](https://github.com/facebookresearch/InvariantRiskMinimization)]
 - Learning Domain-Invariant Relationship with Instrumental Variable for Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2110.01438)]
+- A Causal Framework for Distribution Generalization [[TPAMI 2021](https://arxiv.org/pdf/2006.07433)] [[Code](https://runesen.github.io/NILE/)]
 - Deep Stable Learning for Out-of-Distribution Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Deep_Stable_Learning_for_Out-of-Distribution_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/xxgege/StableNet)]
 - Domain Generalization using Causal Matching [[ICML 2021](http://proceedings.mlr.press/v139/mahajan21b/mahajan21b.pdf)] [[Code](https://github.com/microsoft/robustdg)]
 - A Style and Semantic Memory Mechanism for Domain Generalization [[ICCV 2021](http://openaccess.thecvf.com/content/ICCV2021/papers/Chen_A_Style_and_Semantic_Memory_Mechanism_for_Domain_Generalization_ICCV_2021_paper.pdf)]
@@ -299,6 +318,7 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Domain Generalization via Semi-supervised Meta Learning [[arXiv 2020](https://arxiv.org/pdf/2009.12658)] [[Code](https://github.com/hosseinshn/DGSML)]
 - Semi-Supervised Domain Generalization with Stochastic StyleMatch [[arXiv 2021](https://arxiv.53yu.com/pdf/2106.00592)] [[Code](https://github.com/KaiyangZhou/ssdg-benchmark)]
 - Better Pseudo-label Joint Domain-aware Label and Dual-classifier for Semi-supervised Domain Generalization [[arXiv 2021](https://arxiv.53yu.com/pdf/2110.04820)]
+- Semi-Supervised Domain Generalization in RealWorld: New Benchmark and Strong Baseline [[arXiv 2021](https://arxiv.org/pdf/2111.10221)]
 - Unsupervised Domain Generalization by Learning a Bridge Across Domains [[arXiv 2021](https://arxiv.org/pdf/2112.02300)]
 - Domain-Specific Bias Filtering for Single Labeled Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2110.00726)] [[Code](https://github.com/junkunyuan/DSBF)]
 
@@ -330,6 +350,7 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Domain Generalization with Mixstyle [[ICLR 2021](https://arxiv.53yu.com/pdf/2104.02008)] [[Code](https://github.com/KaiyangZhou/mixstyle-release)]
 - Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_to_Generalize_Unseen_Domains_via_Memory-based_Multi-Source_Meta-Learning_for_CVPR_2021_paper.pdf)] [[Code](https://github.com/HeliosZhao/M3L)]
 - Meta Batch-Instance Normalization for Generalizable Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_Meta_Batch-Instance_Normalization_for_Generalizable_Person_Re-Identification_CVPR_2021_paper.pdf)] [[Code](https://github.com/bismex/MetaBIN)]
+- Generalizable Person Re-identification with Relevance-aware Mixture of Experts [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Generalizable_Person_Re-Identification_With_Relevance-Aware_Mixture_of_Experts_CVPR_2021_paper.pdf)]
 
 ### Face Recognition & Anti-Spoofing
 - Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection [[CVPR 2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)] [[Code](https://github.com/rshaojimmy/CVPR2019-MADDoG)]
@@ -348,24 +369,24 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 
 | Datasets | Task | Description | Related papers in [Paper Index](#paper-index) |
 | :---- | :----: | :----: | :----: |
-| **Colored MNIST** [165] | Handwritten digit recognition | 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165], [171], [173] |
+| **Colored MNIST** [165] | Handwritten digit recognition | 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165], [171], [173], [190] |
 | **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140], [170], [173] |
-| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166], [168] |
-| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]}; 10,729 samples of dimension (3, 224, 224); 5 classes | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161], [170], [173], [174] |
+| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166], [168], [179], [189] |
+| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]}; 10,729 samples of dimension (3, 224, 224); 5 classes | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161], [170], [173], [174], [184], [190], [195] |
 | **[Office31+Caltech](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)** [32] | Object recognition | 4 domains: {Amazon, Webcam, DSLR, Caltech}; 4,652 samples in 31 classes (office31) or 2,533 samples in 10 classes (office31+caltech) | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131], [167] | 
-| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | Object recognition | 4 domains: {art, clipart, product, real}; 15,588 samples of dimension (3, 224, 224); 65 classes | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163], [167], [173], [174], [178] |
-| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | Object recognition | 4 domains: {photo, art, cartoon, sketch}; 9,991 samples of dimension (3, 224, 224); 7 classes | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163], [167], [170], [171], [173], [174], [178] |
-| **DomainNet** [33] | Object recognition | 6 domains: {clipart, infograph, painting, quick-draw, real, sketch}; 586,575 samples of dimension (3, 224, 224); 345 classes | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150], [173], [178] |
+| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | Object recognition | 4 domains: {art, clipart, product, real}; 15,588 samples of dimension (3, 224, 224); 65 classes | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163], [167], [173], [174], [178], [179], [184], [189], [190] |
+| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | Object recognition | 4 domains: {photo, art, cartoon, sketch}; 9,991 samples of dimension (3, 224, 224); 7 classes | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163], [167], [170], [171], [173], [174], [178], [179], [180], [184], [189], [190], [195] |
+| **DomainNet** [33] | Object recognition | 6 domains: {clipart, infograph, painting, quick-draw, real, sketch}; 586,575 samples of dimension (3, 224, 224); 345 classes | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150], [173], [178], [189] |
 | **mini-DomainNet** [34] | Object recognition | A smaller and less noisy version of DomainNet; 4 domains: {clipart, painting, real, sketch}; 140,006 samples | [34], [69], [130], [156], [157] |
 **ImageNet-Sketch** [35] | Object recognition | 2 domains: {real, sketch}; 50,000 samples | [64] |
 **VisDA-17** [36] | Object recognition | 3 domains of synthetic-to-real generalization; 280,157 samples | [119], [178] |
 **CIFAR-10-C** / **CIFAR-100-C** / **[ImageNet-C](https://github.com/hendrycks/robustness/)** [37] | Object recognition | The test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital); 60,000/60,000/1.3M samples | [27], [74], [116], [141], [151], [168] |
 | **Visual Decathlon (VD)** [38] | Object/action/handwritten/digit recognition | 10 domains from the combination of 10 datasets; 1,659,142 samples | [5], [7], [128] |
 **IXMAS** [39] | Action recognition | 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
-**SYNTHIA** [42] | Semantic segmentation | 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151] | 
-**GTA5-Cityscapes** [43], [44] | Semantic segmentation | 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115] |
+**SYNTHIA** [42] | Semantic segmentation | 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151], [185], [193] | 
+**GTA5-Cityscapes** [43], [44] | Semantic segmentation | 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115], [185], [193] |
 **Terra Incognita (TerraInc)** [45] | Animal classification | 4 domains captured at different geographical locations: {L100, L38, L43, L46}; 24,788 samples of dimension (3, 224, 224); 10 classes | [132], [136], [138], [140], [173] |
-**Market-Duke** [46], [47] | Person re-idetification | Cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144] |
+**Market-Duke** [46], [47] | Person re-idetification | Cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144], [187] |
 <!-- **UCF-HMDB** [40], [41] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
 <!-- **Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
 **COMI** [48], [49], [50], [51] | 8500 | 4 | Face anti-spoofing | Combination of 4 face anti-spoofing datasets |  | -->
@@ -752,6 +773,43 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 [177] Scale Invariant Domain Generalization Image Recapture Detection [[ICONIP 2021](https://arxiv.org/pdf/2110.03496)] *(SADG, [domain alignment](#domain-alignment-based-methods), [self-supervised learning](#self-supervised-learning-based-methods))*
 
 [178] Unsupervised Domain Generalization by Learning a Bridge Across Domains [[arXiv 2021](https://arxiv.org/pdf/2112.02300)] ([self-supervised learning](#self-supervised-learning-based-methods), [semi/weak/un-supervised domain generalization](#semiweakun-supervised-domain-generalization))
+
+[179] Semi-Supervised Domain Generalization in RealWorld: New Benchmark and Strong Baseline [[arXiv 2021](https://arxiv.org/pdf/2111.10221)] *([domain alignment](#domain-alignment-based-methods), [semi/weak/un-supervised domain generalization](#semiweakun-supervised-domain-generalization))*
+
+[180] Few-Shot Classification in Unseen Domains by Episodic Meta-Learning Across Visual Domains [[ICIP 2021](https://arxiv.org/pdf/2112.13539)] *(x-EML, [meta-learning](#meta-learning-based-methods))*
+
+[181] Energy-based Out-of-distribution Detection [[NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/file/f5496252609c43eb8a3d147ab9b9c006-Paper.pdf)] [[Code](https://github.com/xieshuqin/Energy-OOD)] ([regularization](#regularization-based-methods))
+
+[182] ROBIN : A Benchmark for Robustness to Individual Nuisances in Real-World Out-of-Distribution Shifts [[arXiv 2021](https://arxiv.org/pdf/2111.14341)] *([ROBIN dataset](#datasets))* [[Code](https://bzhao.me/ROBIN/)]
+
+[183] Towards Non-I.I.D. Image Classification: A Dataset and Baselines [[PR 2021](https://www.sciencedirect.com/science/article/pii/S0031320320301862?casa_token=y_fKwAxq7egAAAAA:BGofuCXu-RA4XWbYcbDjwWXkPvXpj983lsle7WO5fOtoRFrDlI6GG_qELpPt_zApzM_yOXoFlUX0)] *([NICO dataset](#datasets))*
+
+[184] More is Better: A Novel Multi-view Framework for Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2112.12329)] *([data augmentation](#data-augmentation-based-methods), [meta-learning](#meta-learning-based-methods))*
+
+[185] Meta-Learned Feature Critics for Domain Generalized Semantic Segmentation [[ICIP 2021](https://arxiv.org/pdf/2112.13538)] *([meta-learning](#meta-learning-based-methods), [disentangled representation learning](#disentangled-representation-learning-based-methods))*
+
+[186] Domain Generalization through Audio-Visual Relative Norm Alignment in First Person Action Recognition [[WACV 2022](https://openaccess.thecvf.com/content/WACV2022/papers/Planamente_Domain_Generalization_Through_Audio-Visual_Relative_Norm_Alignment_in_First_Person_WACV_2022_paper.pdf)] *(RNA-Net, [normalization](#normalization-based-methods))*
+
+
+[187] Generalizable Person Re-identification with Relevance-aware Mixture of Experts [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Generalizable_Person_Re-Identification_With_Relevance-Aware_Mixture_of_Experts_CVPR_2021_paper.pdf)] *(RaMoE, [ensemble learning](#ensemble-learning-based-methods), [person re-identification](#person-re-identification))*
+
+[188] Domain Generalization by Marginal Transfer Learning [[JMLR 2021](https://www.jmlr.org/papers/volume22/17-679/17-679.pdf)] [[Code](https://github.com/aniketde/DomainGeneralizationMarginal)] *([theory & analysis](#theory--analysis), [data augmentation](#data-augmentation-based-methods))*
+
+[189] Feature Alignment and Restoration for Domain Generalization and Adaptation [[arXiv 2020](https://arxiv.org/pdf/2006.12009)] *(FAR, [domain alignment](#domain-alignment-based-methods))*
+
+[190] Out-of-Distribution Generalization via Risk Extrapolation [[ICML 2021](http://proceedings.mlr.press/v139/krueger21a/krueger21a.pdf)] *(REx, [regularization](#regularization-based-methods))*
+
+[191] A Causal Framework for Distribution Generalization [[TPAMI 2021](https://arxiv.org/pdf/2006.07433)] [[Code](https://runesen.github.io/NILE/)] *(NILE, [causality](#causality-based-methods))*
+
+[192] Iterative Feature Matching: Toward Provable Domain Generalization with Logarithmic Environments [[arXiv 2021](https://arxiv.org/pdf/2106.09913)] *([domain alignment](#domain-alignment-based-methods))*
+
+[193] Robustnet: Improving Domain Generalization in Urban-Scene Segmentation via Instance Selective Whitening [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_RobustNet_Improving_Domain_Generalization_in_Urban-Scene_Segmentation_via_Instance_Selective_CVPR_2021_paper.pdf)] [[Code](https://github.com/shachoi/RobustNet)] *(RobustNet, [disentangled representation learning](#disentangled-representation-learning-based-methods))*
+
+[194] Boosting the Generalization Capability in Cross-Domain Few-shot Learning via Noise-enhanced Supervised Autoencoder [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Boosting_the_Generalization_Capability_in_Cross-Domain_Few-Shot_Learning_via_Noise-Enhanced_ICCV_2021_paper.pdf)] *(NSAE, [self-supervised learning](#self-supervised-learning-based-methods))*
+
+[195] Domain Generalization under Conditional and Label Shifts via Variational Bayesian Inference [[IJCAI 2021](https://arxiv.org/pdf/2107.10931)] *(VBCLS, [domain alignment](#domain-alignment-based-methods))*
+
+[196] The Risks of Invariant Risk Minimization [[ICLR 2021](https://arxiv.org/pdf/2010.05761)] *([theory & analysis](#theory--analysis))*
 
 
 
