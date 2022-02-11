@@ -55,6 +55,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 - The Risks of Invariant Risk Minimization [[ICLR 2021](https://arxiv.org/pdf/2010.05761)]
 - In Search of Lost Domain Generalization [[ICLR 2021](https://arxiv.org/pdf/2007.01434.pdf?fbclid=IwAR1YkUXkIhC6fhr6eI687zBXo_W2tTjjTAFnyjEWvmq4gQKon_4pIDbTnQ4)]
 - The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Hendrycks_The_Many_Faces_of_Robustness_A_Critical_Analysis_of_Out-of-Distribution_ICCV_2021_paper.pdf)] [[Code](https://github.com/hendrycks/imagenet-r)]
+- An Empirical Investigation of Domain Generalization with Empirical Risk Minimizers [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/ecf9902e0f61677c8de25ae60b654669-Paper.pdf)] [[Code](https://github.com/facebookresearch/domainbed_measures)]
+- Towards a Theoretical Framework of Out-Of-Distribution Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/c5c1cb0bebd56ae38817b251ad72bedb-Paper.pdf)]
 
 
 ## Domain Generalization
@@ -100,6 +102,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Progressive Domain Expansion Network for Single Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/lileicv/PDEN)]
 - Confidence Calibration for Domain Generalization Under Covariate Shift [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gong_Confidence_Calibration_for_Domain_Generalization_Under_Covariate_Shift_ICCV_2021_paper.pdf)]
 - On Calibration and Out-of-domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/118bd558033a1016fcc82560c65cca5f-Paper.pdf)]
+- Out-of-Distribution Generalization in Kernel Regression [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf)]
+- Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)]
 
 ### Data Augmentation-Based Methods
 > Data augmentation-based methods augment original data and train the model on the generated data to improve model robustness.
@@ -124,6 +128,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Towards Recognizing Unseen Categories in Unseen Domains [[ECCV 2020](https://arxiv.53yu.com/pdf/2007.12256.pdf?ref=https://githubhelp.com)] [[Code](https://github.com/mancinimassimiliano/CuMix)]
 - Rethinking Domain Generalization Baselines [[ICPR 2020](https://arxiv.53yu.com/pdf/2101.09060)]
 - More is Better: A Novel Multi-view Framework for Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2112.12329)]
+- VideoDG: Generalizing Temporal Relations in Videos to Novel Domains [[TPAMI 2021](https://arxiv.org/pdf/1912.03716)] [[Code](https://github.com/thuml/VideoDG)]
 - Domain Generalization with Mixstyle [[ICLR 2021](https://arxiv.53yu.com/pdf/2104.02008)] [[Code](https://github.com/KaiyangZhou/mixstyle-release)]
 - Learning to Learn Single Domain Generalization [[CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/papers/Qiao_Learning_to_Learn_Single_Domain_Generalization_CVPR_2020_paper.pdf)] [[Code](https://github.com/joffery/M-ADA)]
 - Domain Generalization by Marginal Transfer Learning [[JMLR 2021](https://www.jmlr.org/papers/volume22/17-679/17-679.pdf)] [[Code](https://github.com/aniketde/DomainGeneralizationMarginal)]
@@ -143,6 +148,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - A Simple Feature Augmentation for Domain Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_A_Simple_Feature_Augmentation_for_Domain_Generalization_ICCV_2021_paper.pdf)]
 - Universal Cross-Domain Retrieval Generalizing Across Classes and Domains [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Paul_Universal_Cross-Domain_Retrieval_Generalizing_Across_Classes_and_Domains_ICCV_2021_paper.pdf)] [[Code](https://github.com/mvp18/UCDR)]
 - Feature Stylization and Domain-aware Contrastive Learning for Domain Generalization [[MM 2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475271)]
+- Adversarial Teacher-Student Representation Learning for Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a2137a2ae8e39b5002a3f8909ecb88fe-Paper.pdf)]
 
 ### Meta-Learning-Based Methods
 > Meta-learning-based methods train the model on a meta-train set and improve its performance on a meta-test set for boosting out-of-domain generalization ability.  
@@ -168,6 +174,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Volpi_Continual_Adaptation_of_Visual_Representations_via_Domain_Randomization_and_Meta-Learning_CVPR_2021_paper.pdf)]
 - Meta Batch-Instance Normalization for Generalizable Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_Meta_Batch-Instance_Normalization_for_Generalizable_Person_Re-Identification_CVPR_2021_paper.pdf)] [[Code](https://github.com/bismex/MetaBIN)]
 - Open Domain Generalization with Domain-Augmented Meta-Learning [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Shu_Open_Domain_Generalization_with_Domain-Augmented_Meta-Learning_CVPR_2021_paper.pdf)] [[Code](https://github.com/thuml/OpenDG-DAML)]
+- Exploiting Domain-Specific Features to Enhance Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/b0f2ad44d26e1a6f244201fe0fd864d1-Paper.pdf)] [[Code](https://github.com/manhhabui/mDSDI)]
 
 ### Ensemble Learning-Based Methods
 > Ensemble learning-based methods mainly train a domain-specific model on each source domain, and then draw on collective wisdom to make accurate prediction. 
@@ -193,6 +200,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Generalizable Person Re-identification with Relevance-aware Mixture of Experts [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Generalizable_Person_Re-Identification_With_Relevance-Aware_Mixture_of_Experts_CVPR_2021_paper.pdf)]
 - Learning Transferrable and Interpretable Representations for Domain Generalization [[MM 2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475488)]
 - Embracing the Dark Knowledge: Domain Generalization Using Regularized Knowledge Distillation [[MM 2021](https://arxiv.53yu.com/pdf/2110.04820)]
+- TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/0f49c89d1e7298bb9930789c8ed59d48-Paper.pdf)] [[Code](https://github.com/ShengcaiLiao/QAConv)]
 
 ### Self-Supervised Learning-Based Methods
 > Self-supervised learning-based methods improve model generalization by solving some pretext tasks with data itself.
@@ -234,10 +242,10 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Shape-Biased Domain Generalization via Shock Graph Embeddings [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Narayanan_Shape-Biased_Domain_Generalization_via_Shock_Graph_Embeddings_ICCV_2021_paper.pdf)]
 - Domain-Invariant Disentangled Network for Generalizable Object Detection [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Lin_Domain-Invariant_Disentangled_Network_for_Generalizable_Object_Detection_ICCV_2021_paper.pdf)] 
 - Domain Generalization via Feature Variation Decorrelation [[MM 2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475311)]
-
+- Exploiting Domain-Specific Features to Enhance Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/b0f2ad44d26e1a6f244201fe0fd864d1-Paper.pdf)] [[Code](https://github.com/manhhabui/mDSDI)]
 
 ### Regularization-Based Methods
-> Regularization-based methods design regularization terms to prevent the overfitting problem during model training, hence improving out-of-domain generalization performance.
+> Regularization-based methods leverage regularization terms to prevent the overfitting, or design optimization strategies to guide the training.
 
 - Generalizing from Several Related Classification Tasks to a New Unlabeled Sample [[NeurIPS 2011](https://proceedings.neurips.cc/paper/2011/file/b571ecea16a9824023ee1af16897a582-Paper.pdf)]
 - MetaReg Towards Domain Generalization using Meta-Regularization [[NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/647bba344396e7c8170902bcf2e15551-Paper.pdf)] [[Code*](https://github.com/elliotbeck/MetaReg_PyTorch)]
@@ -251,6 +259,9 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Domain Generalization via Gradient Surgery [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mansilla_Domain_Generalization_via_Gradient_Surgery_ICCV_2021_paper.pdf)] [[Code](https://github.com/lucasmansilla/DGvGS)]
 - SelfReg: Self-Supervised Contrastive Regularization for Domain Generalization [[ICCV 2021](http://openaccess.thecvf.com/content/ICCV2021/papers/Kim_SelfReg_Self-Supervised_Contrastive_Regularization_for_Domain_Generalization_ICCV_2021_paper.pdf)]
 - Embracing the Dark Knowledge: Domain Generalization Using Regularized Knowledge Distillation [[MM 2021](https://arxiv.53yu.com/pdf/2110.04820)]
+- Model-Based Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a8f12d9486cbcc2fe0cfc5352011ad35-Paper.pdf)] [[Code](https://github.com/arobey1/mbdg)]
+- Swad: Domain Generalization by Seeking Flat Minima [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/bcb41ccdc4363c6848a1d760f26c28a0-Paper.pdf)] [[Code](https://github.com/khanrc/swad)]
+- Training for the Future: A Simple Gradient Interpolation Loss to Generalize Along Time [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a02ef8389f6d40f84b50504613117f88-Paper.pdf)] [[Code](https://github.com/anshuln/Training-for-the-Future)]
 
 ### Normalization-Based Methods
 > Normalization-based methods calibrate data from different domains by normalizing them with their statistic.
@@ -270,6 +281,7 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Learning to Learn with Variational Information Bottleneck for Domain Generalization [[ECCV 2020](https://arxiv.org/pdf/2007.07645)]
 - Progressive Domain Expansion Network for Single Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/lileicv/PDEN)]
 - Learning To Diversify for Single Domain Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Learning_To_Diversify_for_Single_Domain_Generalization_ICCV_2021_paper.pdf)] [[Code](https://github.com/BUserName/Learning)]
+- Invariance principle meets information bottleneck for out-of-distribution generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/1c336b8080f82bcc2cd2499b4c57261d-Paper.pdf)] [[Code](https://github.com/ahujak/IB-IRM)]
 - Invariant Information Bottleneck for Domain Generalization [[AAAI 2022](https://arxiv.org/pdf/2106.06333)] [[Code](https://github.com/Luodian/IIB/tree/IIB)]
 
 ### Causality-Based Methods
@@ -351,6 +363,7 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 - Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_to_Generalize_Unseen_Domains_via_Memory-based_Multi-Source_Meta-Learning_for_CVPR_2021_paper.pdf)] [[Code](https://github.com/HeliosZhao/M3L)]
 - Meta Batch-Instance Normalization for Generalizable Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_Meta_Batch-Instance_Normalization_for_Generalizable_Person_Re-Identification_CVPR_2021_paper.pdf)] [[Code](https://github.com/bismex/MetaBIN)]
 - Generalizable Person Re-identification with Relevance-aware Mixture of Experts [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Generalizable_Person_Re-Identification_With_Relevance-Aware_Mixture_of_Experts_CVPR_2021_paper.pdf)]
+- TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/0f49c89d1e7298bb9930789c8ed59d48-Paper.pdf)] [[Code](https://github.com/ShengcaiLiao/QAConv)]
 
 ### Face Recognition & Anti-Spoofing
 - Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection [[CVPR 2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)] [[Code](https://github.com/rshaojimmy/CVPR2019-MADDoG)]
@@ -369,14 +382,14 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 
 | Datasets | Task | Description | Related papers in [Paper Index](#paper-index) |
 | :---- | :----: | :----: | :----: |
-| **Colored MNIST** [165] | Handwritten digit recognition | 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165], [171], [173], [190] |
-| **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140], [170], [173] |
-| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166], [168], [179], [189] |
-| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]}; 10,729 samples of dimension (3, 224, 224); 5 classes | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161], [170], [173], [174], [184], [190], [195] |
+| **Colored MNIST** [165] | Handwritten digit recognition | 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165], [171], [173], [190], [200], [202] |
+| **[Rotated MNIST](https://github.com/Emma0118/mate)** [6] | Handwritten digit recognition | 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140], [170], [173], [202], [204], [206] |
+| **Digits-DG** [28] | Handwritten digit recognition | 4 domains: {MNIST [29], MNIST-M [30], SVHN [31], SYN [30]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [69], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166], [168], [179], [189], [203] |
+| **[VLCS](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)** [16] | Object recognition | 4 domains: {Caltech [8], LabelMe [9], PASCAL [10], SUN [11]}; 10,729 samples of dimension (3, 224, 224); 5 classes | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161], [170], [173], [174], [184], [190], [195], [199], [201], [202], [203] |
 | **[Office31+Caltech](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)** [32] | Object recognition | 4 domains: {Amazon, Webcam, DSLR, Caltech}; 4,652 samples in 31 classes (office31) or 2,533 samples in 10 classes (office31+caltech) | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131], [167] | 
-| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | Object recognition | 4 domains: {art, clipart, product, real}; 15,588 samples of dimension (3, 224, 224); 65 classes | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163], [167], [173], [174], [178], [179], [184], [189], [190] |
-| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | Object recognition | 4 domains: {photo, art, cartoon, sketch}; 9,991 samples of dimension (3, 224, 224); 7 classes | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163], [167], [170], [171], [173], [174], [178], [179], [180], [184], [189], [190], [195] |
-| **DomainNet** [33] | Object recognition | 6 domains: {clipart, infograph, painting, quick-draw, real, sketch}; 586,575 samples of dimension (3, 224, 224); 345 classes | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150], [173], [178], [189] |
+| **[OfficeHome](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)** [20] | Object recognition | 4 domains: {art, clipart, product, real}; 15,588 samples of dimension (3, 224, 224); 65 classes | [19], [54], [28], [34], [55], [58], [60], [61], [64], [69], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163], [167], [173], [174], [178], [179], [184], [189], [190], [199], [201], [202], [203], [206] |
+| **[PACS](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)** [2] | Object recognition | 4 domains: {photo, art, cartoon, sketch}; 9,991 samples of dimension (3, 224, 224); 7 classes | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163], [167], [170], [171], [173], [174], [178], [179], [180], [184], [189], [190], [195], [199], [200], [201], [202], [203], [206] |
+| **DomainNet** [33] | Object recognition | 6 domains: {clipart, infograph, painting, quick-draw, real, sketch}; 586,575 samples of dimension (3, 224, 224); 345 classes | [34], [57], [104], [119], [130], [131], [132], [133], [138], [140], [150], [173], [178], [189], [201], [202], [203] |
 | **mini-DomainNet** [34] | Object recognition | A smaller and less noisy version of DomainNet; 4 domains: {clipart, painting, real, sketch}; 140,006 samples | [34], [69], [130], [156], [157] |
 **ImageNet-Sketch** [35] | Object recognition | 2 domains: {real, sketch}; 50,000 samples | [64] |
 **VisDA-17** [36] | Object recognition | 3 domains of synthetic-to-real generalization; 280,157 samples | [119], [178] |
@@ -385,8 +398,8 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 **IXMAS** [39] | Action recognition | 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
 **SYNTHIA** [42] | Semantic segmentation | 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151], [185], [193] | 
 **GTA5-Cityscapes** [43], [44] | Semantic segmentation | 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115], [185], [193] |
-**Terra Incognita (TerraInc)** [45] | Animal classification | 4 domains captured at different geographical locations: {L100, L38, L43, L46}; 24,788 samples of dimension (3, 224, 224); 10 classes | [132], [136], [138], [140], [173] |
-**Market-Duke** [46], [47] | Person re-idetification | Cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144], [187] |
+**Terra Incognita (TerraInc)** [45] | Animal classification | 4 domains captured at different geographical locations: {L100, L38, L43, L46}; 24,788 samples of dimension (3, 224, 224); 10 classes | [132], [136], [138], [140], [173], [201], [202], [207] |
+**Market-Duke** [46], [47] | Person re-idetification | Cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144], [187], [208] |
 <!-- **UCF-HMDB** [40], [41] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
 <!-- **Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
 **COMI** [48], [49], [50], [51] | 8500 | 4 | Face anti-spoofing | Combination of 4 face anti-spoofing datasets |  | -->
@@ -811,6 +824,30 @@ Contrastive Learning [[MICCAI 2021](https://arxiv.org/pdf/2111.10827)] [[Code](h
 
 [196] The Risks of Invariant Risk Minimization [[ICLR 2021](https://arxiv.org/pdf/2010.05761)] *([theory & analysis](#theory--analysis))*
 
+[197] VideoDG: Generalizing Temporal Relations in Videos to Novel Domains [[TPAMI 2021](https://arxiv.org/pdf/1912.03716)] [[Code](https://github.com/thuml/VideoDG)] *(APN, [data augmentation](#data-augmentation-based-methods))*
+
+[198] An Empirical Investigation of Domain Generalization with Empirical Risk Minimizers [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/ecf9902e0f61677c8de25ae60b654669-Paper.pdf)] [[Code](https://github.com/facebookresearch/domainbed_measures)] *([theory & analysis](#theory--analysis))*
+
+[199] Towards a Theoretical Framework of Out-Of-Distribution Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/c5c1cb0bebd56ae38817b251ad72bedb-Paper.pdf)] *([theory & analysis](#theory--analysis))*
+
+[200] Model-Based Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a8f12d9486cbcc2fe0cfc5352011ad35-Paper.pdf)] [[Code](https://github.com/arobey1/mbdg)] *(MBDG, [regularization](#regularization-based-methods))*
+
+[201] Swad: Domain Generalization by Seeking Flat Minima [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/bcb41ccdc4363c6848a1d760f26c28a0-Paper.pdf)] [[Code](https://github.com/khanrc/swad)] *(SWAD, [regularization](#regularization-based-methods))*
+
+[202] Exploiting Domain-Specific Features to Enhance Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/b0f2ad44d26e1a6f244201fe0fd864d1-Paper.pdf)] [[Code](https://github.com/manhhabui/mDSDI)] *(mDSDI, [meta-learning](#meta-learning-based-methods), [disentangled representation learning](#disentangled-representation-learning-based-methods))*
+
+[203] Adversarial Teacher-Student Representation Learning for Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a2137a2ae8e39b5002a3f8909ecb88fe-Paper.pdf)] *([data augmentation](#data-augmentation-based-methods))*
+
+[204] Training for the Future: A Simple Gradient Interpolation Loss to Generalize Along Time [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a02ef8389f6d40f84b50504613117f88-Paper.pdf)] [[Code](https://github.com/anshuln/Training-for-the-Future)] *(GI, [regularization](#regularization-based-methods))*
+
+[205] Out-of-Distribution Generalization in Kernel Regression [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf)] *([domain alignment](#domain-alignment-based-methods))*
+
+
+[206] Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)] *([domain alignment](#domain-alignment-based-methods))*
+
+[207] Invariance principle meets information bottleneck for out-of-distribution generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/1c336b8080f82bcc2cd2499b4c57261d-Paper.pdf)] [[Code](https://github.com/ahujak/IB-IRM)] *(IB-IRM, [information](#information-based-methods))*
+
+[208] TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/0f49c89d1e7298bb9930789c8ed59d48-Paper.pdf)] [[Code](https://github.com/ShengcaiLiao/QAConv)] *(TransMatcher, [ensemble learning](#ensemble-learning-based-methods), [person re-identification](#person-re-identification))*
 
 
 # Contributing & Contact
@@ -819,7 +856,7 @@ Feel free to contribute to our repository.
 - If you woulk like to **correct mistakes**, please do it directly;
 - If you would like to **add/update papers**, please finish the following tasks (if necessary):
     1. Update [Paper Index](#paper-index).
-    2. Update [Papers & Code](#papers-code). 
+    2. Update [Papers](#papers). 
     3. Update [Datasets](#datasets) with reference of [Paper Index](#paper-index).
 - If you have any **questions or advice**, please contact us by email (yuanjk@zju.edu.cn) or GitHub issues.
 
