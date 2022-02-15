@@ -1,7 +1,7 @@
 # Awesome Domain Generalization
 This repository is a collection of awesome things about **domain generalization**, including papers, code, etc. 
 
-If you would like to contribute to our repository or have any questions/advice, see [Contributing & Contact](#contributing-contact).
+If you would like to contribute to our repository or have any questions/advice, see [Contributing & Contact](#contributing--contact).
 
 # Contents
 - [Awesome-Domain-Generalization](#awesome-domain-generalization)
@@ -36,7 +36,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - [Lectures & Tutorials & Talks](#lectures--tutorials--talks)
 - [Other Resources](#other-resources)
 - [Paper Index](#paper-index)
-- [Contributing & Contact](#contributing-contact)
+- [Contributing & Contact](#contributing--contact)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -472,7 +472,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 [21] Addressing Model Vulnerability to Distributional Shifts Over Image Transformation Sets [[ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Volpi_Addressing_Model_Vulnerability_to_Distributional_Shifts_Over_Image_Transformation_Sets_ICCV_2019_paper.pdf)] [[Code](https://github.com/ricvolpi/domain-shift-robustness)] *([data augmentation](#data-augmentation-based-methods))*
 
-[22] Towards Universal Representation Learning for Deep Face Recognition [[CVPR 2020](http://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Towards_Universal_Representation_Learning_for_Deep_Face_Recognition_CVPR_2020_paper.pdf)] [[Code](https://github.com/MatyushinMA/uni_rep_deep_faces)] *([data augmentation](#data-augmentation-based-methods), [face recognition & anti-spoofing](#face-recognition-anti-spoofing))*
+[22] Towards Universal Representation Learning for Deep Face Recognition [[CVPR 2020](http://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Towards_Universal_Representation_Learning_for_Deep_Face_Recognition_CVPR_2020_paper.pdf)] [[Code](https://github.com/MatyushinMA/uni_rep_deep_faces)] *([data augmentation](#data-augmentation-based-methods), [face recognition & anti-spoofing](#face-recognition--anti-spoofing))*
 
 [23] Generalizing Deep Learning for Medical Image Segmentation to Unseen Domains via Deep Stacked Transformation [[TMI 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/pmc7393676/)] *(BigAug, [data augmentation](#data-augmentation-based-methods))*
 
@@ -584,9 +584,9 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 [77] Deep Domain Generalization via Conditional Invariant Adversarial Networks [[ECCV 2018](http://openaccess.thecvf.com/content_ECCV_2018/papers/Ya_Li_Deep_Domain_Generalization_ECCV_2018_paper.pdf)] *(CIDDG, [domain alignment](#domain-alignment-based-methods))*
 
-[78] Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection [[CVPR 2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)] [[Code](https://github.com/rshaojimmy/CVPR2019-MADDoG)] *(MADDG, [domain alignment](#domain-alignment-based-methods), [face recognition & anti-spoofing](#face-recognition-anti-spoofing))*
+[78] Multi-Adversarial Discriminative Deep Domain Generalization for Face Presentation Attack Detection [[CVPR 2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Shao_Multi-Adversarial_Discriminative_Deep_Domain_Generalization_for_Face_Presentation_Attack_Detection_CVPR_2019_paper.pdf)] [[Code](https://github.com/rshaojimmy/CVPR2019-MADDoG)] *(MADDG, [domain alignment](#domain-alignment-based-methods), [face recognition & anti-spoofing](#face-recognition--anti-spoofing))*
 
-[79] Single-Side Domain Generalization for Face Anti-Spoofing [[CVPR 2020](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jia_Single-Side_Domain_Generalization_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)] [[Code](https://github.com/taylover-pei/SSDG-CVPR2020)] *(SSDG, [domain alignment](#domain-alignment-based-methods), [face recognition & anti-spoofing](#face-recognition-anti-spoofing))*
+[79] Single-Side Domain Generalization for Face Anti-Spoofing [[CVPR 2020](http://openaccess.thecvf.com/content_CVPR_2020/papers/Jia_Single-Side_Domain_Generalization_for_Face_Anti-Spoofing_CVPR_2020_paper.pdf)] [[Code](https://github.com/taylover-pei/SSDG-CVPR2020)] *(SSDG, [domain alignment](#domain-alignment-based-methods), [face recognition & anti-spoofing](#face-recognition--anti-spoofing))*
 
 [80] Correlation-aware Adversarial Domain Adaptation and Generalization [[PR 2020](https://arxiv.53yu.com/pdf/1911.12983)] [[Code](https://github.com/mahfujur1/CA-DA-DG)] *(CAADA, [domain alignment](#domain-alignment-based-methods))*
 
@@ -674,7 +674,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 [122] Multi-View Domain Generalization Framework for Visual Recognition [[TNNLS 2018](http://openaccess.thecvf.com/content_iccv_2015/papers/Niu_Multi-View_Domain_Generalization_ICCV_2015_paper.pdf)] *([ensemble learning](#ensemble-learning-based-methods))*
 
-[123] A Generalization Error Bound for Multi-Class Domain Generalization [[arXiv 2019](https://arxiv.org/pdf/1905.10392)] *([theory & analysis](#theory-analysis))*
+[123] A Generalization Error Bound for Multi-Class Domain Generalization [[arXiv 2019](https://arxiv.org/pdf/1905.10392)] *([theory & analysis](#theory--analysis))*
 
 [124] Domain Generalization for Named Entity Boundary Detection via Metalearning [[TNNLS 2020](https://ieeexplore.ieee.org/abstract/document/9174763/)] *(METABDRY, [meta-learning](#meta-learning-based-methods))*
 
@@ -696,9 +696,9 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 [133] Confidence Calibration for Domain Generalization Under Covariate Shift [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gong_Confidence_Calibration_for_Domain_Generalization_Under_Covariate_Shift_ICCV_2021_paper.pdf)] *([domain alignment](#domain-alignment-based-methods))*
 
-[134] In Search of Lost Domain Generalization [[ICLR 2021](https://arxiv.org/pdf/2007.01434.pdf?fbclid=IwAR1YkUXkIhC6fhr6eI687zBXo_W2tTjjTAFnyjEWvmq4gQKon_4pIDbTnQ4)] *([theory & analysis](#theory-analysis))*
+[134] In Search of Lost Domain Generalization [[ICLR 2021](https://arxiv.org/pdf/2007.01434.pdf?fbclid=IwAR1YkUXkIhC6fhr6eI687zBXo_W2tTjjTAFnyjEWvmq4gQKon_4pIDbTnQ4)] *([theory & analysis](#theory--analysis))*
 
-[135] The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Hendrycks_The_Many_Faces_of_Robustness_A_Critical_Analysis_of_Out-of-Distribution_ICCV_2021_paper.pdf)] [[Code](https://github.com/hendrycks/imagenet-r)] *([theory & analysis](#theory-analysis))*
+[135] The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Hendrycks_The_Many_Faces_of_Robustness_A_Critical_Analysis_of_Out-of-Distribution_ICCV_2021_paper.pdf)] [[Code](https://github.com/hendrycks/imagenet-r)] *([theory & analysis](#theory--analysis))*
 
 [136] Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/1415fe9fea0fa1e45dddcff5682239a0-Paper.pdf)] [[Code](https://github.com/matsuolab/T3A)] *(T3A, [inference-time](#inference-time-based-methods))*
 
