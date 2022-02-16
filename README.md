@@ -50,6 +50,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 
 ## Theory & Analysis
+> We list the papers that either provide inspiring theoretical analyses or conduct extensive empirical studies for domain generalization.
+
 - A Generalization Error Bound for Multi-Class Domain Generalization [[arXiv 2019](https://arxiv.org/pdf/1905.10392)]
 - Domain Generalization by Marginal Transfer Learning [[JMLR 2021](https://www.jmlr.org/papers/volume22/17-679/17-679.pdf)] [[Code](https://github.com/aniketde/DomainGeneralizationMarginal)]
 - The Risks of Invariant Risk Minimization [[ICLR 2021](https://arxiv.org/pdf/2010.05761)]
@@ -57,6 +59,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 - The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Hendrycks_The_Many_Faces_of_Robustness_A_Critical_Analysis_of_Out-of-Distribution_ICCV_2021_paper.pdf)] [[Code](https://github.com/hendrycks/imagenet-r)]
 - An Empirical Investigation of Domain Generalization with Empirical Risk Minimizers [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/ecf9902e0f61677c8de25ae60b654669-Paper.pdf)] [[Code](https://github.com/facebookresearch/domainbed_measures)]
 - Towards a Theoretical Framework of Out-Of-Distribution Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/c5c1cb0bebd56ae38817b251ad72bedb-Paper.pdf)]
+- Out-of-Distribution Generalization in Kernel Regression [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf)]
+- Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)]
 
 
 ## Domain Generalization
@@ -102,8 +106,6 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Progressive Domain Expansion Network for Single Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/lileicv/PDEN)]
 - Confidence Calibration for Domain Generalization Under Covariate Shift [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Gong_Confidence_Calibration_for_Domain_Generalization_Under_Covariate_Shift_ICCV_2021_paper.pdf)]
 - On Calibration and Out-of-domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/118bd558033a1016fcc82560c65cca5f-Paper.pdf)]
-- Out-of-Distribution Generalization in Kernel Regression [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf)]
-- Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)]
 
 ### Data Augmentation-Based Methods
 > Data augmentation-based methods augment original data and train the model on the generated data to improve model robustness.
@@ -149,6 +151,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Universal Cross-Domain Retrieval Generalizing Across Classes and Domains [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Paul_Universal_Cross-Domain_Retrieval_Generalizing_Across_Classes_and_Domains_ICCV_2021_paper.pdf)] [[Code](https://github.com/mvp18/UCDR)]
 - Feature Stylization and Domain-aware Contrastive Learning for Domain Generalization [[MM 2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475271)]
 - Adversarial Teacher-Student Representation Learning for Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a2137a2ae8e39b5002a3f8909ecb88fe-Paper.pdf)]
+- Model-Based Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a8f12d9486cbcc2fe0cfc5352011ad35-Paper.pdf)] [[Code](https://github.com/arobey1/mbdg)]
 
 ### Meta-Learning-Based Methods
 > Meta-learning-based methods train the model on a meta-train set and improve its performance on a meta-test set for boosting out-of-domain generalization ability.  
@@ -262,6 +265,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Model-Based Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a8f12d9486cbcc2fe0cfc5352011ad35-Paper.pdf)] [[Code](https://github.com/arobey1/mbdg)]
 - Swad: Domain Generalization by Seeking Flat Minima [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/bcb41ccdc4363c6848a1d760f26c28a0-Paper.pdf)] [[Code](https://github.com/khanrc/swad)]
 - Training for the Future: A Simple Gradient Interpolation Loss to Generalize Along Time [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a02ef8389f6d40f84b50504613117f88-Paper.pdf)] [[Code](https://github.com/anshuln/Training-for-the-Future)]
+- Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)]
 
 ### Normalization-Based Methods
 > Normalization-based methods calibrate data from different domains by normalizing them with their statistic.
@@ -281,7 +285,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Learning to Learn with Variational Information Bottleneck for Domain Generalization [[ECCV 2020](https://arxiv.org/pdf/2007.07645)]
 - Progressive Domain Expansion Network for Single Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/lileicv/PDEN)]
 - Learning To Diversify for Single Domain Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Learning_To_Diversify_for_Single_Domain_Generalization_ICCV_2021_paper.pdf)] [[Code](https://github.com/BUserName/Learning)]
-- Invariance principle meets information bottleneck for out-of-distribution generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/1c336b8080f82bcc2cd2499b4c57261d-Paper.pdf)] [[Code](https://github.com/ahujak/IB-IRM)]
+- Invariance Principle Meets Information Bottleneck for Out-Of-Distribution Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/1c336b8080f82bcc2cd2499b4c57261d-Paper.pdf)] [[Code](https://github.com/ahujak/IB-IRM)]
+- Exploiting Domain-Specific Features to Enhance Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/b0f2ad44d26e1a6f244201fe0fd864d1-Paper.pdf)] [[Code](https://github.com/manhhabui/mDSDI)]
 - Invariant Information Bottleneck for Domain Generalization [[AAAI 2022](https://arxiv.org/pdf/2106.06333)] [[Code](https://github.com/Luodian/IIB/tree/IIB)]
 
 ### Causality-Based Methods
@@ -296,6 +301,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Learning Causal Semantic Representation for Out-of-Distribution Prediction [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/310614fca8fb8e5491295336298c340f-Paper.pdf)] [[Code](https://github.com/changliu00/causal-semantic-generative-model)]
 - Recovering Latent Causal Factor for Generalization to Distributional Shifts [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/8c6744c9d42ec2cb9e8885b54ff744d0-Paper.pdf)] [[Code](https://github.com/wubotong/LaCIM)]
 - On Calibration and Out-of-domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/118bd558033a1016fcc82560c65cca5f-Paper.pdf)]
+- Invariance Principle Meets Information Bottleneck for Out-Of-Distribution Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/1c336b8080f82bcc2cd2499b4c57261d-Paper.pdf)] [[Code](https://github.com/ahujak/IB-IRM)]
 - Invariant Information Bottleneck for Domain Generalization [[AAAI 2022](https://arxiv.org/pdf/2106.06333)] [[Code](https://github.com/Luodian/IIB/tree/IIB)]
 
 ### Inference-Time-Based Methods
@@ -829,22 +835,21 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 [199] Towards a Theoretical Framework of Out-Of-Distribution Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/c5c1cb0bebd56ae38817b251ad72bedb-Paper.pdf)] *([theory & analysis](#theory--analysis))*
 
-[200] Model-Based Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a8f12d9486cbcc2fe0cfc5352011ad35-Paper.pdf)] [[Code](https://github.com/arobey1/mbdg)] *(MBDG, [regularization](#regularization-based-methods))*
+[200] Model-Based Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a8f12d9486cbcc2fe0cfc5352011ad35-Paper.pdf)] [[Code](https://github.com/arobey1/mbdg)] *(MBDG, [data augmentation](#data-augmentation-based-methods), [regularization](#regularization-based-methods))*
 
 [201] Swad: Domain Generalization by Seeking Flat Minima [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/bcb41ccdc4363c6848a1d760f26c28a0-Paper.pdf)] [[Code](https://github.com/khanrc/swad)] *(SWAD, [regularization](#regularization-based-methods))*
 
-[202] Exploiting Domain-Specific Features to Enhance Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/b0f2ad44d26e1a6f244201fe0fd864d1-Paper.pdf)] [[Code](https://github.com/manhhabui/mDSDI)] *(mDSDI, [meta-learning](#meta-learning-based-methods), [disentangled representation learning](#disentangled-representation-learning-based-methods))*
+[202] Exploiting Domain-Specific Features to Enhance Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/b0f2ad44d26e1a6f244201fe0fd864d1-Paper.pdf)] [[Code](https://github.com/manhhabui/mDSDI)] *(mDSDI, [meta-learning](#meta-learning-based-methods), [disentangled representation learning](#disentangled-representation-learning-based-methods), [information](#information-based-methods))*
 
 [203] Adversarial Teacher-Student Representation Learning for Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a2137a2ae8e39b5002a3f8909ecb88fe-Paper.pdf)] *([data augmentation](#data-augmentation-based-methods), [self-supervised learning](#self-supervised-learning-based-methods))*
 
 [204] Training for the Future: A Simple Gradient Interpolation Loss to Generalize Along Time [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/a02ef8389f6d40f84b50504613117f88-Paper.pdf)] [[Code](https://github.com/anshuln/Training-for-the-Future)] *(GI, [regularization](#regularization-based-methods))*
 
-[205] Out-of-Distribution Generalization in Kernel Regression [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf)] *([domain alignment](#domain-alignment-based-methods))*
+[205] Out-of-Distribution Generalization in Kernel Regression [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf)] *([theory & analysis](#theory--analysis))*
 
+[206] Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)] *([theory & analysis](#theory--analysis), [regularization](#regularization-based-methods))*
 
-[206] Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)] *([domain alignment](#domain-alignment-based-methods))*
-
-[207] Invariance principle meets information bottleneck for out-of-distribution generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/1c336b8080f82bcc2cd2499b4c57261d-Paper.pdf)] [[Code](https://github.com/ahujak/IB-IRM)] *(IB-IRM, [information](#information-based-methods))*
+[207] Invariance Principle Meets Information Bottleneck for Out-Of-Distribution Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/1c336b8080f82bcc2cd2499b4c57261d-Paper.pdf)] [[Code](https://github.com/ahujak/IB-IRM)] *(IB-IRM, [information](#information-based-methods), [causality](#causality-based-methods))*
 
 [208] TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/0f49c89d1e7298bb9930789c8ed59d48-Paper.pdf)] [[Code](https://github.com/ShengcaiLiao/QAConv)] *(TransMatcher, [ensemble learning](#ensemble-learning-based-methods), [person re-identification](#person-re-identification))*
 
