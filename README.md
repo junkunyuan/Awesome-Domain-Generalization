@@ -4,33 +4,33 @@ This repository is a collection of awesome things about **domain generalization*
 If you would like to contribute to our repository or have any questions/advice, see [Contributing & Contact](#contributing--contact).
 
 # Contents
-- [Awesome-Domain-Generalization](#awesome-domain-generalization)
+- [Awesome Domain Generalization](#awesome-domain-generalization)
 - [Contents](#contents)
 - [Papers](#papers)
-    - [Survey](#survey)
-    - [Theory & Analysis](#theory--analysis)
-    - [Domain Generalization](#domain-generalization)
-        - [Domain Alignment-Based Methods](#domain-alignment-based-methods)
-        - [Data Augmentation-Based Methods](#data-augmentation-based-methods)
-        - [Meta-Learning-Based Methods](#meta-learning-based-methods)
-        - [Ensemble Learning-Based Methods](#ensemble-learning-based-methods)
-        - [Self-Supervised Learning-Based Methods](#self-supervised-learning-based-methods)
-        - [Disentangled Representation Learning-Based Methods](#disentangled-representation-learning-based-methods)
-        - [Regularization-Based Methods](#regularization-based-methods)
-        - [Normalization-Based Methods](#normalization-based-methods)
-        - [Information-Based Methods](#information-based-methods)
-        - [Causality-Based Methods](#causality-based-methods)
-        - [Inference-Time-Based Methods](#inference-time-based-methods)
-        - [Neural Architecture Search-based Methods](#neural-architecture-search-based-methods)
-    - [Single Domain Generalization](#single-domain-generalization)
-    - [Semi/Weak/Un-Supervised Domain Generalization](#semiweakun-supervised-domain-generalization)
-    - [Open/Heterogeneous Domain Generalization](#openheterogeneous-domain-generalization)
-    - [Federated Domain Generalization](#federated-domain-generalization)
-    - [Applications](#applications)
-        - [Person Re-Identification](#person-re-identification)
-        - [Face Recognition & Anti-Spoofing](#face-recognition--anti-spoofing)
-    - [Related Topics](#related-topics)
-        - [Life-Long Learning](#life-long-learning)
+  - [Survey](#survey)
+  - [Theory & Analysis](#theory--analysis)
+  - [Domain Generalization](#domain-generalization)
+    - [Domain Alignment-Based Methods](#domain-alignment-based-methods)
+    - [Data Augmentation-Based Methods](#data-augmentation-based-methods)
+    - [Meta-Learning-Based Methods](#meta-learning-based-methods)
+    - [Ensemble Learning-Based Methods](#ensemble-learning-based-methods)
+    - [Self-Supervised Learning-Based Methods](#self-supervised-learning-based-methods)
+    - [Disentangled Representation Learning-Based Methods](#disentangled-representation-learning-based-methods)
+    - [Regularization-Based Methods](#regularization-based-methods)
+    - [Normalization-Based Methods](#normalization-based-methods)
+    - [Information-Based Methods](#information-based-methods)
+    - [Causality-Based Methods](#causality-based-methods)
+    - [Inference-Time-Based Methods](#inference-time-based-methods)
+    - [Neural Architecture Search-based Methods](#neural-architecture-search-based-methods)
+  - [Single Domain Generalization](#single-domain-generalization)
+  - [Semi/Weak/Un-Supervised Domain Generalization](#semiweakun-supervised-domain-generalization)
+  - [Open/Heterogeneous Domain Generalization](#openheterogeneous-domain-generalization)
+  - [Federated Domain Generalization](#federated-domain-generalization)
+  - [Applications](#applications)
+    - [Person Re-Identification](#person-re-identification)
+    - [Face Recognition & Anti-Spoofing](#face-recognition--anti-spoofing)
+  - [Related Topics](#related-topics)
+    - [Life-Long Learning](#life-long-learning)
 - [Datasets](#datasets)
 - [Libraries](#libraries)
 - [Lectures & Tutorials & Talks](#lectures--tutorials--talks)
@@ -435,6 +435,72 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 # Paper Index
 > We list all the papers for quick check, including method abbreviation, keywords, etc.
+
+| Top Conference  |  Papers  |
+|  ----  | ----  |
+|  before 2014  |  [8], [11], [16], [31], [32], [41], [65], [87], [103], [113]  |
+|  CVPR 2015  |  [89]  |
+|  ICML 2015  |  [30]  |
+|  ICCV 2015  |  [6], [46], [88]  |
+|  CVPR 2016  |  [42], [44], [120]  |
+|  IJCAI 2016  |  [66]  |
+|  ECCV 2016  |  [43], [47]  |
+|  ICLR 2017  |  [37]  |
+|  CVPR 2017  |  [20]  |
+|  ICCV 2017  |  [2], [71]  |
+|  NeurIPS 2017  |  [38]  |
+|  AAAI 2018  |  [1], [68]  |
+|  ICLR 2018  |  [53]  |
+|  CVPR 2018  |  [76]  |
+|  ECCV 2018  |  [45], [77]  |
+|  NeurIPS 2018  |  [4], [25]  |
+|  ICLR 2019  |  [35]  |
+|  CVPR 2019  |  [78], [98]  |
+|  ICML 2019  |  [5], [107], [110]  |
+|  ICCV 2019  |  [7], [21], [33], [62], [63]  |
+|  NeurIPS 2019  |  [18]  |
+|  AAAI 2020  |  [55], [83]  |
+|  ICLR 2020  |  [126]  |
+|  CVPR 2020  |  [22], [27], [79], [106]  |
+|  ICML 2020  |  [105]  |
+|  ECCV 2020  |  [14], [15], [28], [57], [64], [94], [99], [104]  |
+|  NeurIPS 2020  |  [75], [86], [112], [181]  |
+|  ICLR 2021  |  [19], [56], [59], [134], [175], [196]  |
+|  AAAI 2021  |  [139], [171]  |
+|  CVPR 2021  |  [12], [13], [115], [116], [117], [118], [119], [132], [141], [147], [153], [160], [168], [187], [193]  |
+|  IJCAI 2021  |  [155], [195]  |
+|  ICML 2021  |  [73], [190]  |
+|  ICCV 2021  |  [129], [130], [133], [135], [138], [142], [143], [148], [149], [150], [158], [159], [194]  |
+|  MM 2021  |  [131], [137], [146], [157]  |
+|  NeurIPS 2021  |  [136], [145], [152], [154], [198], [199], [200], [201], [202], [203], [204], [205], [206], [207], [208]  |
+|  AAAI 2022  |  [140]  |
+
+| Top Journal  |  Papers  |
+|  ----  | ----  |
+|  IJCV 2008  |  [9]  |
+|  IJCV 2010  |  [10]  |
+|  TPAMI 2017  |  [67]  |
+|  TIP 2017  |  [91]  |
+|  TIP 2021  |  [34], [144]  |
+|  TPAMI 2021  |  [101], [114], [191], [197]  |
+|  JMLR 2021  |  [188]  |
+
+| arXiv  |  Papers  |
+|  ----  | ----  |
+|  2012  |  [40]  |
+|  2017  |  [36], [52]  |
+|  2018  |  [166]  |
+|  2019  |  [81], [123], [165], [169]  |
+|  2020  |  [60], [69], [82], [96], [102], [127], [189]  |
+|  2021  |  [3], [54], [58], [151], [156], [161], [162], [163], [170], [173], [174], [176], [178], [179], [182], [184], [192]  |
+
+|  Else  |  Papers  |
+|  ----  |  ----  |
+|  before 2018  |  [29], [39], [48], [49], [50], [51], [90], [92], [97], [109], [111], [121], [122]  |
+|  2019  |  [26], [72], [84], [108], [167]  |
+|  2020  |  [17], [23], [24], [61], [70], [74], [80], [85], [93], [95], [100], [124], [125], [128], [164]  |
+|  2021  |  [172], [177], [180], [183], [185]  |
+|  2022  |  [186]  |
 
 [1] Learning to Generalize: Meta-Learning for Domain Generalization [[AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16067/16547)] [[Code](https://github.com/HAHA-DL/MLDG)] *(MLDG, [meta-learning](#meta-learning-based-methods))*
 
@@ -853,7 +919,6 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 [208] TransMatcher: Deep Image Matching Through Transformers for Generalizable Person Re-identification [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/0f49c89d1e7298bb9930789c8ed59d48-Paper.pdf)] [[Code](https://github.com/ShengcaiLiao/QAConv)] *(TransMatcher, [ensemble learning](#ensemble-learning-based-methods), [person re-identification](#person-re-identification))*
 
-
 # Contributing & Contact
 Feel free to contribute to our repository.
 
@@ -865,8 +930,6 @@ Feel free to contribute to our repository.
 - If you have any **questions or advice**, please contact us by email (yuanjk@zju.edu.cn) or GitHub issues.
 
 Thank you for your cooperation and contributions!
-
-
 
 # Acknowledgements
 - We refer to [awesome-domain-adaptation](https://github.com/zhaoxin94/awesome-domain-adaptation#unsupervised-da) to design the hierarchy of the [Contents](#contents).
