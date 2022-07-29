@@ -45,9 +45,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 > We list papers, implementation code (the unofficial code is marked with *), etc, in the order of year and from journals to conferences. Note that some papers may fall into multiple categories.
 
 ## Survey
-- Domain Generalization in Vision: A Survey [[arXiv 2021](https://arxiv.org/abs/2103.02503)]
 - Generalizing to Unseen Domains: A Survey on Domain Generalization [[IJCAI 2021](https://arxiv.53yu.com/pdf/2103.03097)] [[Slides](http://jd92.wang/assets/files/DGSurvey-ppt.pdf)]
-
+- Domain Generalization in Vision: A Survey [[TPAMI 2022](https://arxiv.org/abs/2103.02503)]
 
 ## Theory & Analysis
 > We list the papers that either provide inspiring theoretical analyses or conduct extensive empirical studies for domain generalization.
@@ -484,7 +483,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 [2] Deeper, Broader and Artier Domain Generalization [[ICCV 2017](https://openaccess.thecvf.com/content_ICCV_2017/papers/Li_Deeper_Broader_and_ICCV_2017_paper.pdf)] [[Code](https://dali-dl.github.io/project_iccv2017.html)] *([disentangled representation learning](#disentangled-representation-learning-based-methods), [PACS dataset](#datasets))*
 
-[3] Domain Generalization in Vision: A Survey [[arXiv 2021](https://arxiv.org/abs/2103.02503)] *([survey](#survey))*
+[3] Domain Generalization in Vision: A Survey [[TPAMI 2022](https://arxiv.org/abs/2103.02503)] *([survey](#survey))*
 
 [4] MetaReg: Towards Domain Generalization using Meta-Regularization [[NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/647bba344396e7c8170902bcf2e15551-Paper.pdf)] [[Code*](https://github.com/elliotbeck/MetaReg_PyTorch)] *(MetaReg, [meta-learning](#meta-learning-based-methods), [regularization](#regularization-based-methods))*
 
