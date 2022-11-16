@@ -1,4 +1,6 @@
 # Awesome Domain Generalization
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 This repository is a collection of awesome things about **domain generalization**, including papers, code, etc. 
 
 If you would like to contribute to our repository or have any questions/advice, see [Contributing & Contact](#contributing--contact).
@@ -31,11 +33,11 @@ If you would like to contribute to our repository or have any questions/advice, 
     - [Face Recognition & Anti-Spoofing](#face-recognition--anti-spoofing)
   - [Related Topics](#related-topics)
     - [Life-Long Learning](#life-long-learning)
+- [Publications](#publications)
 - [Datasets](#datasets)
 - [Libraries](#libraries)
 - [Lectures & Tutorials & Talks](#lectures--tutorials--talks)
 - [Other Resources](#other-resources)
-- [Publications](#publications)
 - [Contributing & Contact](#contributing--contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -187,14 +189,14 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Deep Domain Generalization With Structured Low-Rank Constraint [[TIP 2017](https://par.nsf.gov/servlets/purl/10065328)] [91]
 - Visual Recognition by Learning From Web Data via Weakly Supervised Domain Generalization [[TNNLS 2017](https://bcmi.sjtu.edu.cn/home/niuli/paper/Visual%20Recognition%20by%20Learning%20From%20Web%20Data%20via%20Weakly%20Supervised%20Domain%20Generalization.pdf)] [121]
 - Robust Place Categorization with Deep Domain Generalization [[IEEE Robotics and Automation Letters 2018](https://arxiv.53yu.com/pdf/1805.12048)] [[Code](https://github.com/mancinimassimiliano/caffe)] (**COLD**) [97]
-- Multi-View Domain Generalization Framework for Visual Recognition [[TNNLS 2018](http://openaccess.thecvf.com/content_iccv_2015/papers/Niu_Multi-View_Domain_Generalization_ICCV_2015_paper.pdf)] *([ensemble learning](#ensemble-learning-based-methods))* [122]
+- Multi-View Domain Generalization Framework for Visual Recognition [[TNNLS 2018](http://openaccess.thecvf.com/content_iccv_2015/papers/Niu_Multi-View_Domain_Generalization_ICCV_2015_paper.pdf)] [122]
 - Domain Generalization with Domain-Specific Aggregation Modules [[GCPR 2018](https://arxiv.53yu.com/pdf/1809.10966)] (**D-SAMs**) [92]
 - Best Sources Forward: Domain Generalization through Source-Specific Nets [[ICIP 2018](https://arxiv.53yu.com/pdf/1806.05810)] [90]
 - Batch Normalization Embeddings for Deep Domain Generalization [[arXiv 2020](https://arxiv.53yu.com/pdf/2011.12672)] (**BNE**) [96]
 - DoFE: Domain-oriented Feature Embedding for Generalizable Fundus Image Segmentation on Unseen Datasets [[TMI 2020](https://arxiv.53yu.com/pdf/2010.06208)] (**DoFE**) [93]
 - MS-Net: Multi-Site Network for Improving Prostate Segmentation with Heterogeneous MRI Data [[TMI 2020](https://arxiv.53yu.com/pdf/2002.03366)] [[Code](https://github.com/liuquande/MS-Net)] (**MS-Net**) [95]
 - Generalized Convolutional Forest Networks for Domain Generalization and Visual Recognition [[ICLR 2020](https://openreview.net/pdf?id=H1lxVyStPH)] (**GCFN**) [126]
-- Learning to Optimize Domain Specific Normalization for Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/1907.04275)] (**DSON**)* [94]
+- Learning to Optimize Domain Specific Normalization for Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/1907.04275)] (**DSON**) [94]
 - Class-conditioned Domain Generalization via Wasserstein Distributional Robust Optimization [[ICLR workshop 2021](https://arxiv.org/pdf/2109.03676)] [175]
 - Domain and Content Adaptive Convolution for Domain Generalization in Medical Image Segmentation [[arXiv 2021](https://arxiv.org/pdf/2109.05676)] (**DCAC**) [176]
 - Dynamically Decoding Source Domain Knowledge for Unseen Domain Generalization [[arXiv 2021](https://www.researchgate.net/profile/Karthik-Nandakumar-3/publication/355142270_Dynamically_Decoding_Source_Domain_Knowledge_For_Unseen_Domain_Generalization/links/61debe18034dda1b9ef16fc6/Dynamically-Decoding-Source-Domain-Knowledge-For-Unseen-Domain-Generalization.pdf)] (**D2SDK**) [174]
@@ -272,7 +274,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 > Normalization-based methods calibrate data from different domains by normalizing them with their statistic.
 
 - Batch Normalization Embeddings for Deep Domain Generalization [[arXiv 2020](https://arxiv.53yu.com/pdf/2011.12672)] (**BNE**) [96]
-- Learning to Optimize Domain Specific Normalization for Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/1907.04275)] (**DSON**)* [94]
+- Learning to Optimize Domain Specific Normalization for Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/1907.04275)] (**DSON**) [94]
 - MetaNorm: Learning to Normalize Few-Shot Batches Across Domains [[ICLR 2021](https://openreview.net/pdf?id=9z_dNsC4B5t)] [[Code](https://github.com/YDU-AI/MetaNorm)] (**MetaNorm**) [19]
 - Meta Batch-Instance Normalization for Generalizable Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_Meta_Batch-Instance_Normalization_for_Generalizable_Person_Re-Identification_CVPR_2021_paper.pdf)] [[Code](https://github.com/bismex/MetaBIN)] (**MetaBIN**) [13]
 - - Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhao_Learning_to_Generalize_Unseen_Domains_via_Memory-based_Multi-Source_Meta-Learning_for_CVPR_2021_paper.pdf)] [[Code](https://github.com/HeliosZhao/M3L)] (**M3L**) [12]
@@ -382,6 +384,53 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Sequential Learning for Domain Generalization [[ECCV workshop 2020](https://arxiv.org/pdf/2004.01377)] (**S-MLDG**) [14]
 - Continual Adaptation of Visual Representations via Domain Randomization and Meta-learning [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Volpi_Continual_Adaptation_of_Visual_Representations_via_Domain_Randomization_and_Meta-Learning_CVPR_2021_paper.pdf)] (**Meta-DR**) [153]
 
+# Publications
+
+| Top Conference  |  Papers  |  Top Conference  |  Papers  |
+|  ----  | ----  |  ----  |  ----  |
+|  before 2014  |  [8], [11], [16], [31], [32], [41], [65], [87], [103], [113]  |  CVPR 2015  |  [89]  |
+|  ICML 2015  |  [30]  |  ICCV 2015  |  [6], [46], [88]  |
+|  CVPR 2016  |  [42], [44], [120]  |  IJCAI 2016  |  [66]  |
+|  ECCV 2016  |  [43], [47]  |  ICLR 2017  |  [37]  |
+|  CVPR 2017  |  [20]  |  ICCV 2017  |  [2], [71]  |
+|  NeurIPS 2017  |  [38]  |  AAAI 2018  |  [1], [68]  |
+|  ICLR 2018  |  [53]  |  CVPR 2018  |  [76]  |
+|  ECCV 2018  |  [45], [77]  |  NeurIPS 2018  |  [4], [25]  |
+|  ICLR 2019  |  [35]  |  CVPR 2019  |  [78], [98]  |
+|  ICML 2019  |  [5], [107], [110]  |  ICCV 2019  |  [7], [21], [33], [62], [63]  |
+|  NeurIPS 2019  |  [18]  |  AAAI 2020  |  [55], [83]  |
+|  ICLR 2020  |  [126]  |  CVPR 2020  |  [22], [27], [79], [106]  |
+|  ICML 2020  |  [105]  |  ECCV 2020  |  [14], [15], [28], [57], [64], [94], [99], [104]  |
+|  NeurIPS 2020  |  [75], [86], [112], [181]  |  ICLR 2021  |  [19], [56], [59], [134], [175], [196]  |
+|  AAAI 2021  |  [139], [171]  |  CVPR 2021  |  [12], [13], [115], [116], [117], [118], [119], [132], [141], [147], [153], [160], [168], [187], [193]  |
+|  IJCAI 2021  |  [155], [195]  |  ICML 2021  |  [73], [190]  |
+|  ICCV 2021  |  [129], [130], [133], [135], [138], [142], [143], [148], [149], [150], [158], [159], [194]  |  MM 2021  |  [131], [137], [146], [157]  |
+|  NeurIPS 2021  |  [136], [145], [152], [154], [198], [199], [200], [201], [202], [203], [204], [205], [206], [207], [208]  |  AAAI 2022  |  [140]  |
+
+| Top Journal  |  Papers  |
+|  ----  | ----  |
+|  before 2014  | [9] (IJCV), [10] (IJCV)  |
+|  2017  |  [67] (TPAMI), [91] (TIP)  |
+|  2021|   [34] (TIP), [144] (TIP),  [101] (TPAMI), [114] (TPAMI), [191] (TPAMI), [197] (TPAMI), [188] (JMLR)  |
+| 2022 | [209] (TMLR), [210] (TMLR) |
+
+| arXiv  |  Papers  |
+|  ----  | ----  |
+|  before 2014  |  [40]  |
+|  2017  |  [36], [52]  |
+|  2018  |  [166]  |
+|  2019  |  [81], [123], [165], [169]  |
+|  2020  |  [60], [82], [96], [102], [127], [189]  |
+|  2021  |  [3], [54], [58], [151], [156], [161], [162], [163], [170], [173], [174], [176], [178], [179], [184], [192]  |
+
+|  Else  |  Papers  |
+|  ----  |  ----  |
+|  before 2018  |  [29], [39], [48], [49], [50], [51], [90], [92], [97], [109], [111], [121], [122]  |
+|  2019  |  [26], [72], [84], [108], [167]  |
+|  2020  |  [17], [23], [24], [61], [70], [74], [80], [85], [93], [95], [100], [124], [125], [128], [164]  |
+|  2021  |  [172], [177], [180], [185]  |
+|  2022  |  [186]  |
+
 # Datasets
 > Evaluations on the following datasets often follow leave-one-domain-out protocol: randomly choose one domain to hold out as the target domain, while the others are used as the  source domain(s).
 
@@ -429,53 +478,6 @@ If you would like to contribute to our repository or have any questions/advice, 
 - A collection of domain generalization papers organized by [jindongwang](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization).
 - A collection of papers on domain generalization, domain adaptation, causality, robustness, prompt, optimization, generative model, etc, organized by [yfzhang114](https://github.com/yfzhang114/Generalization-Causality).
 - Adaptation and Generalization Across Domains in Visual Recognition with Deep Neural Networks [[PhD 2020, Kaiyang Zhou (University of Surrey)](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Adaptation-and-Generalization-Across-Domains-in/99513024202346)] [164]
-
-# Publications
-
-| Top Conference  |  Papers  |  Top Conference  |  Papers  |
-|  ----  | ----  |  ----  |  ----  |
-|  before 2014  |  [8], [11], [16], [31], [32], [41], [65], [87], [103], [113]  |  CVPR 2015  |  [89]  |
-|  ICML 2015  |  [30]  |  ICCV 2015  |  [6], [46], [88]  |
-|  CVPR 2016  |  [42], [44], [120]  |  IJCAI 2016  |  [66]  |
-|  ECCV 2016  |  [43], [47]  |  ICLR 2017  |  [37]  |
-|  CVPR 2017  |  [20]  |  ICCV 2017  |  [2], [71]  |
-|  NeurIPS 2017  |  [38]  |  AAAI 2018  |  [1], [68]  |
-|  ICLR 2018  |  [53]  |  CVPR 2018  |  [76]  |
-|  ECCV 2018  |  [45], [77]  |  NeurIPS 2018  |  [4], [25]  |
-|  ICLR 2019  |  [35]  |  CVPR 2019  |  [78], [98]  |
-|  ICML 2019  |  [5], [107], [110]  |  ICCV 2019  |  [7], [21], [33], [62], [63]  |
-|  NeurIPS 2019  |  [18]  |  AAAI 2020  |  [55], [83]  |
-|  ICLR 2020  |  [126]  |  CVPR 2020  |  [22], [27], [79], [106]  |
-|  ICML 2020  |  [105]  |  ECCV 2020  |  [14], [15], [28], [57], [64], [94], [99], [104]  |
-|  NeurIPS 2020  |  [75], [86], [112], [181]  |  ICLR 2021  |  [19], [56], [59], [134], [175], [196]  |
-|  AAAI 2021  |  [139], [171]  |  CVPR 2021  |  [12], [13], [115], [116], [117], [118], [119], [132], [141], [147], [153], [160], [168], [187], [193]  |
-|  IJCAI 2021  |  [155], [195]  |  ICML 2021  |  [73], [190]  |
-|  ICCV 2021  |  [129], [130], [133], [135], [138], [142], [143], [148], [149], [150], [158], [159], [194]  |  MM 2021  |  [131], [137], [146], [157]  |
-|  NeurIPS 2021  |  [136], [145], [152], [154], [198], [199], [200], [201], [202], [203], [204], [205], [206], [207], [208]  |  AAAI 2022  |  [140]  |
-
-| Top Journal  |  Papers  |
-|  ----  | ----  |
-|  before 2014  | [9] (IJCV), [10] (IJCV)  |
-|  2017  |  [67] (TPAMI), [91] (TIP)  |
-|  2021|   [34] (TIP), [144] (TIP),  [101] (TPAMI), [114] (TPAMI), [191] (TPAMI), [197] (TPAMI), [188] (JMLR)  |
-| 2022 | [209] (TMLR), [210] (TMLR) |
-
-| arXiv  |  Papers  |
-|  ----  | ----  |
-|  before 2014  |  [40]  |
-|  2017  |  [36], [52]  |
-|  2018  |  [166]  |
-|  2019  |  [81], [123], [165], [169]  |
-|  2020  |  [60], [82], [96], [102], [127], [189]  |
-|  2021  |  [3], [54], [58], [151], [156], [161], [162], [163], [170], [173], [174], [176], [178], [179], [184], [192]  |
-
-|  Else  |  Papers  |
-|  ----  |  ----  |
-|  before 2018  |  [29], [39], [48], [49], [50], [51], [90], [92], [97], [109], [111], [121], [122]  |
-|  2019  |  [26], [72], [84], [108], [167]  |
-|  2020  |  [17], [23], [24], [61], [70], [74], [80], [85], [93], [95], [100], [124], [125], [128], [164]  |
-|  2021  |  [172], [177], [180], [185]  |
-|  2022  |  [186]  |
 
 # Contributing & Contact
 Feel free to contribute to our repository.
