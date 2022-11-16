@@ -434,7 +434,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 # Datasets
 > Evaluations on the following datasets often follow leave-one-domain-out protocol: randomly choose one domain to hold out as the target domain, while the others are used as the  source domain(s).
 
-| Datasets (download link) | Description | Related papers in [Paper Index](#paper-index) |
+| Datasets (download link) | Description | Related papers |
 | :---- | :----: | :----: |
 | **Colored MNIST** [165] | Handwritten digit recognition; 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165], [171], [173], [190], [200], [202] |
 | **Rotated MNIST** [6] ([original](https://github.com/Emma0118/mate)) | Handwritten digit recognition; 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140], [170], [173], [202], [204], [206] |
