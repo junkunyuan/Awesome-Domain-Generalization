@@ -85,6 +85,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Domain Adaptive Ensemble Learning [[TIP 2021](https://arxiv.53yu.com/pdf/2003.07325)] [[Code](https://github.com/KaiyangZhou/Dassl.pytorch)] (**mini-DomainNet dataset**) [34]
 - Towards Non-IID Image Classification A Dataset and Baselines [[PR 2021](https://arxiv.org/pdf/1906.02899)] (**NICO dataset**) [108]
 - NICO++ Towards Better Benchmarking for Domain Generalization [[arXiv 2022](https://arxiv.org/pdf/2204.08040)] (**NICO++ dataset**) [183]
+- MetaShift: A Dataset of Datasets for Evaluating Contextual Distribution Shifts and Training Conflicts [[ICLR 2022](https://arxiv.org/pdf/2202.06523)] [[Code](https://github.com/Weixin-Liang/MetaShift)] (**MetaShift dataset**) [213]
 
 ## Domain Generalization
 > To address the dataset/domain shift problem [[109]](https://www.sciencedirect.com/science/article/pii/S0031320311002901?casa_token=qIu5tyPmlgQAAAAA:IDLcYED3jzUGsissKY_EuDLQTMCkGQrEWoAq542Cbcd4FKQinvp78Wgb6jhRiSLqGdQCvcifwprz)) [[110](http://proceedings.mlr.press/v97/recht19a/recht19a.pdf))] [[111](https://link.springer.com/content/pdf/10.1007/s10994-009-5152-4.pdf))] [[112]](https://proceedings.neurips.cc/paper/2020/file/d8330f857a17c53d217014ee776bfd50-Paper.pdf), domain generalization [[113](https://proceedings.neurips.cc/paper/2011/file/b571ecea16a9824023ee1af16897a582-Paper.pdf)] aims to learn a model from source domain(s) and make it generalize well to unknown target domains.
@@ -427,7 +428,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 |  2019  |  **ICLR:** [35], [37]; **CVPR:** [78], [98]; **ICML:** [5], [107], [110]; **ICCV:** [7], [21], [33], [62], [63]; **NeurIPS:** [18]  |
 |  2020  |  **ICLR:** [55], [83]; **ICLR:** [126]; **CVPR:** [22], [27], [79], [106]; **ICML:** [105]; **ECCV:** [14], [15], [28], [57], [64], [94], [99], [104]; **NeurIPS:** [75], [86], [112], [181]  |
 |  2021  |  **ICLR:** [19], [56], [59], [134], [175], [196]; **ICLR:** [139], [171]; **CVPR:** [12], [13], [115], [116], [117], [118], [119], [132], [141], [147], [153], [160], [168], [187], [193]; IJCAI: [155], [195]; **ICML:** [73], [190]; **ICCV:** [129], [130], [133], [135], [138], [142], [143], [148], [149], [150], [158], [159], [194]; **MM:**  [131], [137], [146], [157]; **NeurIPS:** [136], [145], [152], [154], [198], [199], [200], [201], [202], [203], [204], [205], [206], [207], [208]  |
-|  2022  |  **ICLR:** [140]; **CVPR:** [69], [182]; **MM:** [211]  |
+|  2022  |  **AAAI:** [140]; **ICLR:** [213]; **CVPR:** [69], [182]; **MM:** [211]  |
 
 | Top Journal  |  Papers  |
 |  ----  | ----  |
@@ -503,7 +504,7 @@ Feel free to contribute to our repository.
 
 - If you woulk like to *correct mistakes*, please do it directly;
 - If you would like to *add/update papers*, please finish the following tasks (if necessary):
-    1. Find the max index (current max: **[210]**, not used: none), and create a new one.
+    1. Find the max index (current max: **[213]**, not used: none), and create a new one.
     2. Update [Publications](#publications).
     3. Update [Papers](#papers).
     4. Update [Datasets](#datasets).
