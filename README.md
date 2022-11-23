@@ -10,7 +10,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 - [Contents](#contents)
 - [Papers](#papers)
   - [Survey](#survey)
-  - [Theory & Analysis](#theory--analysis)
+  - [Theory \& Analysis](#theory--analysis)
+  - [Dataset](#dataset)
   - [Domain Generalization](#domain-generalization)
     - [Domain Alignment-Based Methods](#domain-alignment-based-methods)
     - [Data Augmentation-Based Methods](#data-augmentation-based-methods)
@@ -30,15 +31,15 @@ If you would like to contribute to our repository or have any questions/advice, 
   - [Federated Domain Generalization](#federated-domain-generalization)
   - [Applications](#applications)
     - [Person Re-Identification](#person-re-identification)
-    - [Face Recognition & Anti-Spoofing](#face-recognition--anti-spoofing)
+    - [Face Recognition \& Anti-Spoofing](#face-recognition--anti-spoofing)
   - [Related Topics](#related-topics)
     - [Life-Long Learning](#life-long-learning)
 - [Publications](#publications)
 - [Datasets](#datasets)
 - [Libraries](#libraries)
-- [Lectures & Tutorials & Talks](#lectures--tutorials--talks)
+- [Lectures \& Tutorials \& Talks](#lectures--tutorials--talks)
 - [Other Resources](#other-resources)
-- [Contributing & Contact](#contributing--contact)
+- [Contributing \& Contact](#contributing--contact)
 - [Acknowledgements](#acknowledgements)
 
 
@@ -63,8 +64,32 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Out-of-Distribution Generalization in Kernel Regression [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf)] [205]
 - Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)] [206]
 
+## Dataset
+- Free Viewpoint Action Recognition Using Motion History Volumes [[CVIU 2006](https://hal.inria.fr/docs/00/54/46/29/PDF/cviu_motion_history_volumes.pdf)] (**IXMAS dataset**) [39]
+- Geodesic flow kernel for unsupervised domain adaptation [[CVPR 2012](http://openaccess.thecvf.com/content_iccv_2013/papers/Fang_Unbiased_Metric_Learning_2013_ICCV_paper.pdf)] (**Office-Caltech dataset**) [32]
+- Unbiased Metric Learning: On the Utilization of Multiple Datasets and Web Images for Softening Bias [[ICCV 2013](https://openaccess.thecvf.com/content_iccv_2013/papers/Fang_Unbiased_Metric_Learning_2013_ICCV_paper.pdf)] (**VLCS dataset**) [16]
+- Domain Generalization for Object Recognition with Multi-Task Autoencoders [[ICCV 2015](http://openaccess.thecvf.com/content_iccv_2015/papers/Ghifary_Domain_Generalization_for_ICCV_2015_paper.pdf)] [[Code](https://github.com/Emma0118/mate)] (**MTAE**, **Rotated MNIST dataset**) [6]
+- Scalable Person Re-identification: A Benchmark [[ICCV 2015](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf)] (**Market-1501 dataset**) [46]
+- The Cityscapes Dataset for Semantic Urban Scene Understanding [[CVPR 2016](https://openaccess.thecvf.com/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf)] (**Cityscapes dataset**) [44]
+- The SYNTHIA Dataset: A Large Collection of Synthetic Images for Semantic Segmentation of Urban Scenes [[CVPR 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.pdf)] (**SYNTHIA dataset**) [42]
+- Playing for Data: Ground Truth from Computer Games [[ECCV 2016](https://linkspringer.53yu.com/chapter/10.1007/978-3-319-46475-6_7)] (**GTA5 dataset**) [43]
+- Performance Measures and a Data Set for Multi-target, Multi-camera Tracking [[ECCV 2016](https://linkspringer.53yu.com/chapter/10.1007/978-3-319-48881-3_2)] (**Duke dataset**) [47]
+- VisDA: The Visual Domain Adaptation Challenge [[arXiv 2017](https://arxiv.org/pdf/1710.06924.pdf)] (**VisDA-17 dataset**) [36]
+- Deep Hashing Network for Unsupervised Domain Adaptation [[CVPR 2017](https://openaccess.thecvf.com/content_cvpr_2017/papers/Venkateswara_Deep_Hashing_Network_CVPR_2017_paper.pdf)] (**OfficeHome dataset**) [20]
+- Deeper, Broader and Artier Domain Generalization [[ICCV 2017](https://openaccess.thecvf.com/content_ICCV_2017/papers/Li_Deeper_Broader_and_ICCV_2017_paper.pdf)] [[Code](https://dali-dl.github.io/project_iccv2017.html)] (**PACS dataset**) [2]
+- Learning Multiple Visual Domains with Residual Adapters [[NeurIPS 2017](https://proceedings.neurips.cc/paper/2017/file/e7b24b112a44fdd9ee93bdf998c6ca0e-Paper.pdf)] (**Visual Decathlon (VD) dataset**) [38]
+- Recognition in Terra Incognita [[ECCV 2018](https://openaccess.thecvf.com/content_ECCV_2018/papers/Beery_Recognition_in_Terra_ECCV_2018_paper.pdf)] (**Terra Incognita dataset**) [45]
+- Invariant Risk Minimization [[arXiv 2019](https://arxiv.53yu.com/pdf/1907.02893.pdf;)] [[Code](https://github.com/facebookresearch/InvariantRiskMinimization)] (**IRM**, **Colored MNIST dataset**) [165]
+- Learning Robust Representations by Projecting Superficial Statistics Out [[ICLR 2019](https://arxiv.53yu.com/pdf/1903.06256)] [[Code](https://github.com/HaohanWang/HEX)] (**HEX**, **ImageNet-Sketch dataset**) [35]
+- Benchmarking Neural Network Robustness to Common Corruptions and Perturbations [[ICLR 2019](https://arxiv.org/pdf/1903.12261.pdf?ref=https://githubhelp.com)] (**CIFAR-10-C / CIFAR-100-C / ImageNet-C dataset**) [37]
+- Moment Matching for Multi-Source Domain Adaptation [[ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Moment_Matching_for_Multi-Source_Domain_Adaptation_ICCV_2019_paper.pdf)] [[Code](http://ai.bu.edu/M3SDA/)] (**DomainNet dataset**) [33]
+- Learning to Generate Novel Domains for Domain Generalization [[ECCV 2020](https://arxiv.org/pdf/2007.03304)] [[Code](https://github.com/mousecpn/L2A-OT)] (**L2A-OT**, **Digits-DG dataset**) [28]
+- Domain Adaptive Ensemble Learning [[TIP 2021](https://arxiv.53yu.com/pdf/2003.07325)] [[Code](https://github.com/KaiyangZhou/Dassl.pytorch)] (**mini-DomainNet dataset**) [34]
+- Towards Non-IID Image Classification A Dataset and Baselines [[PR 2021](https://arxiv.org/pdf/1906.02899)] (**NICO dataset**) [108]
+- NICO++ Towards Better Benchmarking for Domain Generalization [[arXiv 2022](https://arxiv.org/pdf/2204.08040)] (**NICO++ dataset**) [183]
+
 ## Domain Generalization
-> To address the dataset/domain shift problem [108] [[109]](https://www.sciencedirect.com/science/article/pii/S0031320311002901?casa_token=qIu5tyPmlgQAAAAA:IDLcYED3jzUGsissKY_EuDLQTMCkGQrEWoAq542Cbcd4FKQinvp78Wgb6jhRiSLqGdQCvcifwprz)) [[110](http://proceedings.mlr.press/v97/recht19a/recht19a.pdf))] [[111](https://link.springer.com/content/pdf/10.1007/s10994-009-5152-4.pdf))] [[112]](https://proceedings.neurips.cc/paper/2020/file/d8330f857a17c53d217014ee776bfd50-Paper.pdf), domain generalization [113] aims to learn a model from source domain(s) and make it generalize well to unknown target domains.
+> To address the dataset/domain shift problem [[109]](https://www.sciencedirect.com/science/article/pii/S0031320311002901?casa_token=qIu5tyPmlgQAAAAA:IDLcYED3jzUGsissKY_EuDLQTMCkGQrEWoAq542Cbcd4FKQinvp78Wgb6jhRiSLqGdQCvcifwprz)) [[110](http://proceedings.mlr.press/v97/recht19a/recht19a.pdf))] [[111](https://link.springer.com/content/pdf/10.1007/s10994-009-5152-4.pdf))] [[112]](https://proceedings.neurips.cc/paper/2020/file/d8330f857a17c53d217014ee776bfd50-Paper.pdf), domain generalization [[113](https://proceedings.neurips.cc/paper/2011/file/b571ecea16a9824023ee1af16897a582-Paper.pdf)] aims to learn a model from source domain(s) and make it generalize well to unknown target domains.
 
 ### Domain Alignment-Based Methods
 > Domain alignment-based methods aim to minimize divergence between source domains for learning domain-invariant representations.
@@ -125,7 +150,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Deep Domain-Adversarial Image Generation for Domain Generalisation [[AAAI 2020](https://ojs.aaai.org/index.php/AAAI/article/download/7003/6857)] [[Code](https://github.com/KaiyangZhou/Dassl.pytorch)] (**DDAIG**) [55]
 - Towards Universal Representation Learning for Deep Face Recognition [[CVPR 2020](http://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Towards_Universal_Representation_Learning_for_Deep_Face_Recognition_CVPR_2020_paper.pdf)] [[Code](https://github.com/MatyushinMA/uni_rep_deep_faces)] [22]
 - Heterogeneous Domain Generalization via Domain Mixup [[ICASSP 2020](https://arxiv.org/pdf/2009.05448)] [[Code](https://github.com/wyf0912/MIXALL)] [128]
-- Learning to Generate Novel Domains for Domain Generalization [[ECCV 2020](https://arxiv.org/pdf/2007.03304)] [[Code](https://github.com/mousecpn/L2A-OT)] (**L2A-OT**) [28]
+- Learning to Generate Novel Domains for Domain Generalization [[ECCV 2020](https://arxiv.org/pdf/2007.03304)] [[Code](https://github.com/mousecpn/L2A-OT)] (**L2A-OT**, **Digits-DG dataset**) [28]
 - Learning from Extrinsic and Intrinsic Supervisions for Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/2007.09316)] [[Code](https://github.com/emma-sjwang/EISNet)] (**EISNet**) [99]
 - Towards Recognizing Unseen Categories in Unseen Domains [[ECCV 2020](https://arxiv.53yu.com/pdf/2007.12256.pdf?ref=https://githubhelp.com)] [[Code](https://github.com/mancinimassimiliano/CuMix)] (**CuMix**) [57]
 - Rethinking Domain Generalization Baselines [[ICPR 2020](https://arxiv.53yu.com/pdf/2101.09060)]
@@ -201,7 +226,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Class-conditioned Domain Generalization via Wasserstein Distributional Robust Optimization [[ICLR workshop 2021](https://arxiv.org/pdf/2109.03676)] [175]
 - Domain and Content Adaptive Convolution for Domain Generalization in Medical Image Segmentation [[arXiv 2021](https://arxiv.org/pdf/2109.05676)] (**DCAC**) [176]
 - Dynamically Decoding Source Domain Knowledge for Unseen Domain Generalization [[arXiv 2021](https://www.researchgate.net/profile/Karthik-Nandakumar-3/publication/355142270_Dynamically_Decoding_Source_Domain_Knowledge_For_Unseen_Domain_Generalization/links/61debe18034dda1b9ef16fc6/Dynamically-Decoding-Source-Domain-Knowledge-For-Unseen-Domain-Generalization.pdf)] (**D2SDK**) [174]
-- Domain Adaptive Ensemble Learning [[TIP 2021](https://arxiv.53yu.com/pdf/2003.07325)] [[Code](https://github.com/KaiyangZhou/Dassl.pytorch)] [34]
+- Domain Adaptive Ensemble Learning [[TIP 2021](https://arxiv.53yu.com/pdf/2003.07325)] [[Code](https://github.com/KaiyangZhou/Dassl.pytorch)] (**mini-DomainNet dataset**) [34]
 - Generalizable Person Re-identification with Relevance-aware Mixture of Experts [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Dai_Generalizable_Person_Re-Identification_With_Relevance-Aware_Mixture_of_Experts_CVPR_2021_paper.pdf)] (**RaMoE**) [187]
 - Learning Transferrable and Interpretable Representations for Domain Generalization [[MM 2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475488)] (**DTN**) [131]
 - Embracing the Dark Knowledge: Domain Generalization Using Regularized Knowledge Distillation [[MM 2021](https://arxiv.53yu.com/pdf/2110.04820)] (**KDDG**) [157]
@@ -211,7 +236,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 ### Self-Supervised Learning-Based Methods
 > Self-supervised learning-based methods improve model generalization by solving some pretext tasks with data itself.
 
-- Domain Generalization for Object Recognition with Multi-Task Autoencoders [[ICCV 2015](http://openaccess.thecvf.com/content_iccv_2015/papers/Ghifary_Domain_Generalization_for_ICCV_2015_paper.pdf)] [[Code](https://github.com/Emma0118/mate)] (**MTAE**) [6]
+- Domain Generalization for Object Recognition with Multi-Task Autoencoders [[ICCV 2015](http://openaccess.thecvf.com/content_iccv_2015/papers/Ghifary_Domain_Generalization_for_ICCV_2015_paper.pdf)] [[Code](https://github.com/Emma0118/mate)] (**MTAE**, **Rotated MNIST dataset**) [6]
 - Domain Generalization by Solving Jigsaw Puzzles [[CVPR 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Carlucci_Domain_Generalization_by_Solving_Jigsaw_Puzzles_CVPR_2019_paper.pdf)] [[Code](https://github.com/fmcarlucci/JigenDG)] (**JiGen**) [98]
 - Improving Out-Of-Distribution Generalization via Multi-Task Self-Supervised Pretraining [[arXiv 2020](https://arxiv.53yu.com/pdf/2003.13525)] [102]
 - Generalized Convolutional Forest Networks for Domain Generalization and Visual Recognition [[ICLR 2020](https://openreview.net/pdf?id=H1lxVyStPH)] (**GCFN**) [126]
@@ -257,8 +282,8 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 - Generalizing from Several Related Classification Tasks to a New Unlabeled Sample [[NeurIPS 2011](https://proceedings.neurips.cc/paper/2011/file/b571ecea16a9824023ee1af16897a582-Paper.pdf)] [113]
 - MetaReg: Towards Domain Generalization using Meta-Regularization [[NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/647bba344396e7c8170902bcf2e15551-Paper.pdf)] [[Code*](https://github.com/elliotbeck/MetaReg_PyTorch)] (**MetaReg**) [4]
-- Invariant Risk Minimization [[arXiv 2019](https://arxiv.53yu.com/pdf/1907.02893.pdf;)] [[Code](https://github.com/facebookresearch/InvariantRiskMinimization)] (**IRM**) [165]
-- Learning Robust Representations by Projecting Superficial Statistics Out [[ICLR 2019](https://arxiv.53yu.com/pdf/1903.06256)] [[Code](https://github.com/HaohanWang/HEX)] (**HEX**) [35]
+- Invariant Risk Minimization [[arXiv 2019](https://arxiv.53yu.com/pdf/1907.02893.pdf;)] [[Code](https://github.com/facebookresearch/InvariantRiskMinimization)] (**IRM**, **Colored MNIST dataset**) [165]
+- Learning Robust Representations by Projecting Superficial Statistics Out [[ICLR 2019](https://arxiv.53yu.com/pdf/1903.06256)] [[Code](https://github.com/HaohanWang/HEX)] (**HEX**, **ImageNet-Sketch dataset**) [35]
 - Self-challenging Improves Cross-Domain Generalization [[ECCV 2020](https://arxiv.53yu.com/pdf/2007.02454)] [[Code](https://github.com/DeLightCMU/RSC)] (**RSC**) [64]
 - Energy-based Out-of-distribution Detection [[NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/file/f5496252609c43eb8a3d147ab9b9c006-Paper.pdf)] [[Code](https://github.com/xieshuqin/Energy-OOD)] [181]
 - Fishr: Invariant Gradient Variances for Our-of-distribution Generalization [[arXiv 2021](https://arxiv.org/pdf/2109.02934)] [[Code](https://github.com/alexrame/fishr)] (**Fishr**) [173]
@@ -297,7 +322,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 ### Causality-Based Methods
 > Causality-based methods analyze and address the domain generalization problem from a causal perspective.
 
-- Invariant Risk Minimization [[arXiv 2019](https://arxiv.53yu.com/pdf/1907.02893.pdf;)] [[Code](https://github.com/facebookresearch/InvariantRiskMinimization)] (**IRM**) [165]
+- Invariant Risk Minimization [[arXiv 2019](https://arxiv.53yu.com/pdf/1907.02893.pdf;)] [[Code](https://github.com/facebookresearch/InvariantRiskMinimization)] (**IRM**, **Colored MNIST dataset**) [165]
 - Learning Domain-Invariant Relationship with Instrumental Variable for Domain Generalization [[arXiv 2021](https://arxiv.org/pdf/2110.01438)] (**IV-DG**) [163]
 - A Causal Framework for Distribution Generalization [[TPAMI 2021](https://arxiv.org/pdf/2006.07433)] [[Code](https://runesen.github.io/NILE/)] (**NILE**) [191]
 - Domain Generalization using Causal Matching [[ICML 2021](http://proceedings.mlr.press/v139/mahajan21b/mahajan21b.pdf)] [[Code](https://github.com/microsoft/robustdg)] (**MatchDG**) [73]
@@ -367,7 +392,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 ## Applications
 ### Person Re-Identification
 - Deep Domain-Adversarial Image Generation for Domain Generalisation [[AAAI 2020](https://ojs.aaai.org/index.php/AAAI/article/download/7003/6857)] [[Code](https://github.com/KaiyangZhou/Dassl.pytorch)]
-- Learning to Generate Novel Domains for Domain Generalization [[ECCV 2020](https://arxiv.org/pdf/2007.03304)] [[Code](https://github.com/mousecpn/L2A-OT)] (**L2A-OT**) [28]
+- Learning to Generate Novel Domains for Domain Generalization [[ECCV 2020](https://arxiv.org/pdf/2007.03304)] [[Code](https://github.com/mousecpn/L2A-OT)] (**L2A-OT**, **Digits-DG dataset**) [28]
 - Learning Generalisable Omni-Scale Representations for Person Re-Identification [[TPAMI 2021](https://arxiv.org/pdf/1910.06827)] [[Code](https://github.com/KaiyangZhou/deep-person-reid)] [114]
 - Multi-Domain Adversarial Feature Generalization for Person Re-Identification [[TIP 2021](https://ieeexplore.ieee.org/iel7/83/9263394/09311771.pdf)] (**MMFA-AAE**) [144]
 - Domain Generalization with Mixstyle [[ICLR 2021](https://arxiv.53yu.com/pdf/2104.02008)] [[Code](https://github.com/KaiyangZhou/mixstyle-release)] (**MixStyle**) [56]
@@ -391,25 +416,15 @@ If you would like to contribute to our repository or have any questions/advice, 
 
 | Top Conference  |  Papers  |  Top Conference  |  Papers  |
 |  ----  | ----  |  ----  |  ----  |
-|  before 2014  |  [8], [11], [16], [31], [32], [41], [65], [87], [103], [113]  |  CVPR 2015  |  [89]  |
-|  ICML 2015  |  [30]  |  ICCV 2015  |  [6], [46], [88]  |
-|  CVPR 2016  |  [42], [44], [120]  |  IJCAI 2016  |  [66]  |
-|  ECCV 2016  |  [43], [47]  |  ICLR 2017  |  [37]  |
-|  CVPR 2017  |  [20]  |  ICCV 2017  |  [2], [71]  |
-|  NeurIPS 2017  |  [38]  |  AAAI 2018  |  [1], [68]  |
-|  ICLR 2018  |  [53]  |  CVPR 2018  |  [76]  |
-|  ECCV 2018  |  [45], [77]  |  NeurIPS 2018  |  [4], [25]  |
-|  ICLR 2019  |  [35]  |  CVPR 2019  |  [78], [98]  |
-|  ICML 2019  |  [5], [107], [110]  |  ICCV 2019  |  [7], [21], [33], [62], [63]  |
-|  NeurIPS 2019  |  [18]  |  AAAI 2020  |  [55], [83]  |
-|  ICLR 2020  |  [126]  |  CVPR 2020  |  [22], [27], [79], [106]  |
-|  ICML 2020  |  [105]  |  ECCV 2020  |  [14], [15], [28], [57], [64], [94], [99], [104]  |
-|  NeurIPS 2020  |  [75], [86], [112], [181]  |  ICLR 2021  |  [19], [56], [59], [134], [175], [196]  |
-|  AAAI 2021  |  [139], [171]  |  CVPR 2021  |  [12], [13], [115], [116], [117], [118], [119], [132], [141], [147], [153], [160], [168], [187], [193]  |
-|  IJCAI 2021  |  [155], [195]  |  ICML 2021  |  [73], [190]  |
-|  ICCV 2021  |  [129], [130], [133], [135], [138], [142], [143], [148], [149], [150], [158], [159], [194]  |  MM 2021  |  [131], [137], [146], [157]  |
-|  NeurIPS 2021  |  [136], [145], [152], [154], [198], [199], [200], [201], [202], [203], [204], [205], [206], [207], [208]  |  AAAI 2022  |  [140]  |
-| CVPR 2022 | [69], [182] | | |
+|  before 2014  |  **CVPR:** [8], [11]; **ICCV:** [16], [41]; **NeurIPS:** [31], [113]; **ECCV:** [32], [87], [103]; **ICML:** [65]  |
+|  2015  |  **CVPR:** [89]; **ICML:** [30]; **ICCV:** [6], [46], [88]  |
+|  2016  |  **CVPR:** [42], [44], [120]; IJCAI: [66]; **ECCV:** [43], [47]  |
+|  2017  |  **CVPR:** [20]; **ICCV:** [2], [71]; **NeurIPS:** [38]  |
+|  2018  |  **ICLR:** [1], [68]; **ICLR:** [53]; **CVPR:** [76]; **ECCV:** [45], [77]; **NeurIPS:** [4], [25]  |
+|  2019  |  **ICLR:** [35], [37]; **CVPR:** [78], [98]; **ICML:** [5], [107], [110]; **ICCV:** [7], [21], [33], [62], [63]; **NeurIPS:** [18]  |
+|  2020  |  **ICLR:** [55], [83]; **ICLR:** [126]; **CVPR:** [22], [27], [79], [106]; **ICML:** [105]; **ECCV:** [14], [15], [28], [57], [64], [94], [99], [104]; **NeurIPS:** [75], [86], [112], [181]  |
+|  2021  |  **ICLR:** [19], [56], [59], [134], [175], [196]; **ICLR:** [139], [171]; **CVPR:** [12], [13], [115], [116], [117], [118], [119], [132], [141], [147], [153], [160], [168], [187], [193]; IJCAI: [155], [195]; **ICML:** [73], [190]; **ICCV:** [129], [130], [133], [135], [138], [142], [143], [148], [149], [150], [158], [159], [194]; **MM:**  [131], [137], [146], [157]; **NeurIPS:** [136], [145], [152], [154], [198], [199], [200], [201], [202], [203], [204], [205], [206], [207], [208]  |
+|  2022  |  **ICLR:** [140]; **CVPR:** [69], [182]  |
 
 | Top Journal  |  Papers  |
 |  ----  | ----  |
@@ -426,38 +441,39 @@ If you would like to contribute to our repository or have any questions/advice, 
 |  2019  |  [81], [123], [165], [169]  |
 |  2020  |  [60], [82], [96], [102], [127], [189]  |
 |  2021  |  [3], [54], [58], [151], [156], [161], [163], [170], [173], [174], [176], [178], [179], [184], [192]  |
+|  2022  |  [183]  |
 
 |  Else  |  Papers  |
 |  ----  |  ----  |
 |  before 2018  |  [29], [39], [48], [49], [50], [51], [90], [92], [97], [109], [111], [121], [122]  |
-|  2019  |  [26], [72], [84], [108], [167]  |
+|  2019  |  [26], [72], [84], [167]  |
 |  2020  |  [17], [23], [24], [61], [70], [74], [80], [85], [93], [95], [100], [124], [125], [128], [164]  |
-|  2021  |  [172], [177], [180], [185]  |
+|  2021  |  [108], [172], [177], [180], [185]  |
 |  2022  |  [186]  |
 
 # Datasets
 > Evaluations on the following datasets often follow leave-one-domain-out protocol: randomly choose one domain to hold out as the target domain, while the others are used as the  source domain(s).
-
+> 
 | Datasets (download link) | Description | Related papers |
 | :---- | :----: | :----: |
-| **Colored MNIST** [165] | Handwritten digit recognition; 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165], [171], [173], [190], [200], [202] |
-| **Rotated MNIST** [6] ([original](https://github.com/Emma0118/mate)) | Handwritten digit recognition; 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140], [170], [173], [202], [204], [206] |
-| **Digits-DG** [28] | Handwritten digit recognition; 4 domains: {MNIST [[29]](http://lushuangning.oss-cn-beijing.aliyuncs.com/CNN%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97/Gradient-Based_Learning_Applied_to_Document_Recognition.pdf), MNIST-M [[30](http://proceedings.mlr.press/v37/ganin15.pdf)], SVHN [[31](https://research.google/pubs/pub37648.pdf)], SYN [[30](http://proceedings.mlr.press/v37/ganin15.pdf)]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166], [168], [179], [189], [203], [209], [210] |
-| **VLCS** [[16](http://openaccess.thecvf.com/content_iccv_2013/papers/Fang_Unbiased_Metric_Learning_2013_ICCV_paper.pdf)] ([1](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8); or [original](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)) | Object recognition; 4 domains: {Caltech [[8](http://www.vision.caltech.edu/publications/Fei-FeiCompVIsImageU2007.pdf)], LabelMe [[9](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11263-007-0090-8.pdf&casa_token=n3w4Sen-huAAAAAA:sJY2dHreDGe2V4KE9jDehftM1W-Sn1z8bqeF_WK8Q9t4B0dFk5OXEAlIP7VYnr8UfiWLAOPG7dK0ZveYWs8)], PASCAL [[10](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11263-009-0275-4.pdf&casa_token=Zb6LfMuhy_sAAAAA:Sqk_aoTWdXx37FQjUFaZN9ZMQxrUhqO2S_HbOO2a9BKtejW7CMekg-3PDVw6Yjw7BZqihyjP0D_Y6H2msBo)], SUN [[11](https://dspace.mit.edu/bitstream/handle/1721.1/60690/Oliva_SUN%20database.pdf?sequence=1&isAllowed=y))]}; 10,729 samples of dimension (3, 224, 224); 5 classes; about 3.6 GB | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161], [170], [173], [174], [184], [190], [195], [199], [201], [202], [203], [209] |
+| **Colored MNIST** [[165]](https://arxiv.53yu.com/pdf/1907.02893.pdf) | Handwritten digit recognition; 3 domains: {0.1, 0.3, 0.9}; 70,000 samples of dimension (2, 28, 28); 2 classes | [82], [138], [140], [149], [152], [154], [165], [171], [173], [190], [200], [202] |
+| **Rotated MNIST** [[6]](http://openaccess.thecvf.com/content_iccv_2015/papers/Ghifary_Domain_Generalization_for_ICCV_2015_paper.pdf) ([original](https://github.com/Emma0118/mate)) | Handwritten digit recognition; 6 domains with rotated degree: {0, 15, 30, 45, 60, 75}; 7,000 samples of dimension (1, 28, 28); 10 classes | [5], [6], [15], [35], [53], [55], [63], [71], [73], [74], [76], [77], [86], [90], [105], [107], [138], [140], [170], [173], [202], [204], [206] |
+| **Digits-DG** [[28]](https://arxiv.org/pdf/2007.03304) | Handwritten digit recognition; 4 domains: {MNIST [[29]](http://lushuangning.oss-cn-beijing.aliyuncs.com/CNN%E5%AD%A6%E4%B9%A0%E7%B3%BB%E5%88%97/Gradient-Based_Learning_Applied_to_Document_Recognition.pdf), MNIST-M [[30](http://proceedings.mlr.press/v37/ganin15.pdf)], SVHN [[31](https://research.google/pubs/pub37648.pdf)], SYN [[30](http://proceedings.mlr.press/v37/ganin15.pdf)]}; 24,000 samples; 10 classes | [21], [25], [27], [28], [34], [35], [55], [59], [63], [94], [98], [116], [118], [130], [141], [142], [146], [151], [153], [157], [158], [159], [160], [166], [168], [179], [189], [203], [209], [210] |
+| **VLCS** [[16]](http://openaccess.thecvf.com/content_iccv_2013/papers/Fang_Unbiased_Metric_Learning_2013_ICCV_paper.pdf) ([1](https://drive.google.com/uc?id=1skwblH1_okBwxWxmRsp9_qi15hyPpxg8); or [original](https://www.mediafire.com/file/7yv132lgn1v267r/vlcs.tar.gz/file)) | Object recognition; 4 domains: {Caltech [[8]](http://www.vision.caltech.edu/publications/Fei-FeiCompVIsImageU2007.pdf), LabelMe [[9]](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11263-007-0090-8.pdf&casa_token=n3w4Sen-huAAAAAA:sJY2dHreDGe2V4KE9jDehftM1W-Sn1z8bqeF_WK8Q9t4B0dFk5OXEAlIP7VYnr8UfiWLAOPG7dK0ZveYWs8), PASCAL [[10](https://idp.springer.com/authorize/casa?redirect_uri=https://link.springer.com/content/pdf/10.1007/s11263-009-0275-4.pdf&casa_token=Zb6LfMuhy_sAAAAA:Sqk_aoTWdXx37FQjUFaZN9ZMQxrUhqO2S_HbOO2a9BKtejW7CMekg-3PDVw6Yjw7BZqihyjP0D_Y6H2msBo)], SUN [[11](https://dspace.mit.edu/bitstream/handle/1721.1/60690/Oliva_SUN%20database.pdf?sequence=1&isAllowed=y))]}; 10,729 samples of dimension (3, 224, 224); 5 classes; about 3.6 GB | [2], [6], [7], [14], [15], [18], [60], [61], [64], [67], [68], [70], [71], [74], [76], [77], [81], [83], [86], [91], [98], [99], [101], [102], [103], [117], [118], [126], [127], [131], [132], [136], [138], [140], [142], [145], [146], [148], [149], [161], [170], [173], [174], [184], [190], [195], [199], [201], [202], [203], [209] |
 | **Office31+Caltech** [[32]](https://linkspringer.53yu.com/content/pdf/10.1007/978-3-642-15561-1_16.pdf) ([1](https://drive.google.com/file/d/14OIlzWFmi5455AjeBZLak2Ku-cFUrfEo/view)) | Object recognition; 4 domains: {Amazon, Webcam, DSLR, Caltech}; 4,652 samples in 31 classes (office31) or 2,533 samples in 10 classes (office31+caltech); 51 MB | [6], [35], [67], [68], [70], [71], [80], [91], [96], [119], [131], [167] |
-| **OfficeHome** [[20](http://openaccess.thecvf.com/content_cvpr_2017/papers/Venkateswara_Deep_Hashing_Network_CVPR_2017_paper.pdf)] ([1](https://drive.google.com/uc?id=1uY0pj7oFsjMxRwaD3Sxy0jgel0fsYXLC); or [original](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)) | Object recognition; 4 domains: {Art, Clipart, Product, Real World}; 15,588 samples of dimension (3, 224, 224); 65 classes; 1.1 GB | [19], [54], [28], [34], [55], [58], [60], [61], [64], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163], [167], [173], [174], [178], [179], [182], [184], [189], [190], [199], [201], [202], [203], [206] |
-| **PACS** [2] ([1](https://drive.google.com/uc?id=1JFr8f805nMUelQWWmfnJR3y4_SYoN5Pd); or [original](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)) | Object recognition; 4 domains: {photo, art_painting, cartoon, sketch}; 9,991 samples of dimension (3, 224, 224); 7 classes; 174 MB | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163], [167], [170], [171], [173], [174], [178], [179], [180], [182], [184], [189], [190], [195], [199], [200], [201], [202], [203], [206], [209], [210] |
+| **OfficeHome** [[20]](http://openaccess.thecvf.com/content_cvpr_2017/papers/Venkateswara_Deep_Hashing_Network_CVPR_2017_paper.pdf) ([1](https://drive.google.com/uc?id=1uY0pj7oFsjMxRwaD3Sxy0jgel0fsYXLC); or [original](https://drive.google.com/file/d/0B81rNlvomiwed0V1YUxQdC1uOTg/view?resourcekey=0-2SNWq0CDAuWOBRRBL7ZZsw)) | Object recognition; 4 domains: {Art, Clipart, Product, Real World}; 15,588 samples of dimension (3, 224, 224); 65 classes; 1.1 GB | [19], [54], [28], [34], [55], [58], [60], [61], [64], [80], [92], [94], [98], [101], [118], [126], [130], [131], [132], [133], [137], [138], [140], [146], [148], [156], [159], [160], [162], [163], [167], [173], [174], [178], [179], [182], [184], [189], [190], [199], [201], [202], [203], [206] |
+| **PACS** [[2]](https://openaccess.thecvf.com/content_ICCV_2017/papers/Li_Deeper_Broader_and_ICCV_2017_paper.pdf) ([1](https://drive.google.com/uc?id=1JFr8f805nMUelQWWmfnJR3y4_SYoN5Pd); or [original](https://drive.google.com/drive/folders/0B6x7gtvErXgfUU1WcGY5SzdwZVk?resourcekey=0-2fvpQY_QSyJf2uIECzqPuQ)) | Object recognition; 4 domains: {photo, art_painting, cartoon, sketch}; 9,991 samples of dimension (3, 224, 224); 7 classes; 174 MB | [1], [2], [4], [5], [14], [15], [18], [19], [34], [54], [28], [35], [55], [56], [57], [58], [59], [60], [61], [64], [69], [73], [77], [80], [81], [82], [83], [84], [86], [90], [92], [94], [96], [98], [99], [101], [102], [104], [105], [116], [117], [118], [127], [129], [130], [131], [132], [136], [137], [138], [139], [140], [142], [145], [146], [148], [149], [153], [156], [157], [158], [159], [160], [161], [162], [163], [167], [170], [171], [173], [174], [178], [179], [180], [182], [184], [189], [190], [195], [199], [200], [201], [202], [203], [206], [209], [210] |
 | **DomainNet** [[33](https://openaccess.thecvf.com/content_ICCV_2019/papers/Peng_Moment_Matching_for_Multi-Source_Domain_Adaptation_ICCV_2019_paper.pdf)] ([clipart](http://csr.bu.edu/ftp/visda/2019/multi-source/groundtruth/clipart.zip), [infograph](http://csr.bu.edu/ftp/visda/2019/multi-source/infograph.zip), [painting](http://csr.bu.edu/ftp/visda/2019/multi-source/groundtruth/painting.zip), [quick-draw](http://csr.bu.edu/ftp/visda/2019/multi-source/quickdraw.zip), [real](http://csr.bu.edu/ftp/visda/2019/multi-source/real.zip), and [sketch](http://csr.bu.edu/ftp/visda/2019/multi-source/sketch.zip); or [original](http://ai.bu.edu/M3SDA/)) | Object recognition; 6 domains: {clipart, infograph, painting, quick-draw, real, sketch}; 586,575 samples of dimension (3, 224, 224); 345 classes; 1.2 GB + 4.0 GB + 3.4 GB + 439 MB + 5.6 GB + 2.5 GB | [34], [57], [69], [104], [119], [130], [131], [132], [133], [138], [140], [150], [173], [182], [189], [201], [202], [203] |
-| **mini-DomainNet** [34] | Object recognition; a smaller and less noisy version of DomainNet; 4 domains: {clipart, painting, real, sketch}; 140,006 samples | [34], [130], [156], [157], [210] |
-**ImageNet-Sketch** [35] | Object recognition; 2 domains: {real, sketch}; 50,000 samples | [64] |
+| **mini-DomainNet** [[34]](https://arxiv.53yu.com/pdf/2003.07325) | Object recognition; a smaller and less noisy version of DomainNet; 4 domains: {clipart, painting, real, sketch}; 140,006 samples | [34], [130], [156], [157], [210] |
+**ImageNet-Sketch** [[35]](https://arxiv.53yu.com/pdf/1903.06256) | Object recognition; 2 domains: {real, sketch}; 50,000 samples | [64] |
 **VisDA-17** [[36](https://arxiv.53yu.com/pdf/1710.06924)] | Object recognition; 3 domains of synthetic-to-real generalization; 280,157 samples | [119], [182] |
-**CIFAR-10-C** / **CIFAR-100-C** / **ImageNet-C** [[37](https://arxiv.53yu.com/pdf/1903.12261.pdf?ref=https://githubhelp.com)] ([original](https://github.com/hendrycks/robustness/)) | Object recognition; the test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital); 60,000/60,000/1.3M samples | [27], [69], [74], [116], [141], [151], [168] |
+**CIFAR-10-C** / **CIFAR-100-C** / **ImageNet-C** [[37]](https://arxiv.53yu.com/pdf/1903.12261.pdf?ref=https://githubhelp.com) ([original](https://github.com/hendrycks/robustness/)) | Object recognition; the test data are damaged by 15 corruptions (each with 5 intensity levels) drawn from 4 categories (noise, blur, weather, and digital); 60,000/60,000/1.3M samples | [27], [69], [74], [116], [141], [151], [168] |
 | **Visual Decathlon (VD)** [[38]](https://proceedings.neurips.cc/paper/2017/file/e7b24b112a44fdd9ee93bdf998c6ca0e-Paper.pdf) | Object/action/handwritten/digit recognition; 10 domains from the combination of 10 datasets; 1,659,142 samples | [5], [7], [128] |
-**IXMAS** [[39](https://hal.inria.fr/docs/00/54/46/29/PDF/cviu_motion_history_volumes.pdf)] | Action recognition; 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
+**IXMAS** [[39]](https://hal.inria.fr/docs/00/54/46/29/PDF/cviu_motion_history_volumes.pdf) | Action recognition; 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
 **SYNTHIA** [[42]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.pdf) | Semantic segmentation; 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151], [185], [193] | 
-**GTA5-Cityscapes** [[43](https://linkspringer.53yu.com/chapter/10.1007/978-3-319-46475-6_7)], [[44](http://openaccess.thecvf.com/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf)] | Semantic segmentation; 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115], [185], [193] |
-**Terra Incognita (TerraInc)** [[45](http://openaccess.thecvf.com/content_ECCV_2018/papers/Beery_Recognition_in_Terra_ECCV_2018_paper.pdf)] ([1](https://lilablobssc.blob.core.windows.net/caltechcameratraps/eccv_18_all_images_sm.tar.gz) and [2](https://lilablobssc.blob.core.windows.net/caltechcameratraps/labels/caltech_camera_traps.json.zip); or [original](https://lila.science/datasets/caltech-camera-traps)) | Animal classification; 4 domains captured at different geographical locations: {L100, L38, L43, L46}; 24,788 samples of dimension (3, 224, 224); 10 classes; 6.0 GB + 8.6 MB | [132], [136], [138], [140], [173], [201], [202], [207] |
-**Market-Duke** [[46](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf)], [[47](https://linkspringer.53yu.com/chapter/10.1007/978-3-319-48881-3_2)] | Person re-idetification; cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144], [187], [208] |
+**GTA5-Cityscapes** [[43]](https://linkspringer.53yu.com/chapter/10.1007/978-3-319-46475-6_7), [[44]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf) | Semantic segmentation; 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115], [185], [193] |
+**Terra Incognita (TerraInc)** [[45]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Beery_Recognition_in_Terra_ECCV_2018_paper.pdf) ([1](https://lilablobssc.blob.core.windows.net/caltechcameratraps/eccv_18_all_images_sm.tar.gz) and [2](https://lilablobssc.blob.core.windows.net/caltechcameratraps/labels/caltech_camera_traps.json.zip); or [original](https://lila.science/datasets/caltech-camera-traps)) | Animal classification; 4 domains captured at different geographical locations: {L100, L38, L43, L46}; 24,788 samples of dimension (3, 224, 224); 10 classes; 6.0 GB + 8.6 MB | [132], [136], [138], [140], [173], [201], [202], [207] |
+**Market-Duke** [[46]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf), [[47]](https://linkspringer.53yu.com/chapter/10.1007/978-3-319-48881-3_2) | Person re-idetification; cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144], [187], [208] |
 <!-- **UCF-HMDB** [[40](https://arxiv.53yu.com/pdf/1212.0402.pdf?ref=https://githubhelp.com)], [[41](https://dspace.mit.edu/bitstream/handle/1721.1/69981/Poggio-HMDB.pdf?sequence=1&isAllowed=y)] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
 <!-- **Face** [22] | >5M | 9 | Face recognition | Combination of 9 face datasets |  |
 **COMI** [[48](http://www.cbsr.ia.ac.cn/users/jjyan/zhang-icb2012.pdf)], [49], [50], [[51](https://dl.gi.de/bitstream/handle/20.500.12116/18295/183.pdf?sequence=1)] | 8500 | 4 | Face anti-spoofing | Combination of 4 face anti-spoofing datasets |  | -->
@@ -484,7 +500,7 @@ Feel free to contribute to our repository.
 
 - If you woulk like to *correct mistakes*, please do it directly;
 - If you would like to *add/update papers*, please finish the following tasks (if necessary):
-    1. Find the max index (current max: **[210]**, not used: [183]), and create a new one.
+    1. Find the max index (current max: **[210]**, not used: none), and create a new one.
     2. Update [Publications](#publications).
     3. Update [Papers](#papers).
     4. Update [Datasets](#datasets).
