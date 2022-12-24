@@ -279,6 +279,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Domain Generalization via Feature Variation Decorrelation [[MM 2021](https://dl.acm.org/doi/pdf/10.1145/3474085.3475311)] [146]
 - Exploiting Domain-Specific Features to Enhance Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/b0f2ad44d26e1a6f244201fe0fd864d1-Paper.pdf)] [[Code](https://github.com/manhhabui/mDSDI)] (**mDSDI**) [202]
 - Variational Disentanglement for Domain Generalization [[TMLR 2022](https://arxiv.org/pdf/2109.05826)] (**VDN**) [210]
+- Intra-Source Style Augmentation for Improved Domain Generalization [[WACV 2023](https://arxiv.org/pdf/2210.10175.pdf)] (**ISSA**) [215]
 
 ### Regularization-Based Methods
 > Regularization-based methods leverage regularization terms to prevent the overfitting, or design optimization strategies to guide the training.
@@ -359,6 +360,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Adversarially Adaptive Normalization for Single Domain Generalization [[CVPR 2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Fan_Adversarially_Adaptive_Normalization_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)]  (**ASR**) [116]
 - Progressive Domain Expansion Network for Single Domain Generalization [[CVPR 2021](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_Progressive_Domain_Expansion_Network_for_Single_Domain_Generalization_CVPR_2021_paper.pdf)] [[Code](https://github.com/lileicv/PDEN)] (**PDEN**) [141]
 - Learning To Diversify for Single Domain Generalization [[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Wang_Learning_To_Diversify_for_Single_Domain_Generalization_ICCV_2021_paper.pdf)] [[Code](https://github.com/BUserName/Learning)] [158]
+- Intra-Source Style Augmentation for Improved Domain Generalization [[WACV 2023](https://arxiv.org/pdf/2210.10175.pdf)] (**ISSA**) [215]
 
 ## Semi/Weak/Un-Supervised Domain Generalization
 > Semi/weak-supervised domain generalization assumes that a part of the source data is unlabeled, while unsupervised domain generalization assumes no training supervision.
@@ -430,6 +432,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 |  2020  |  **ICLR:** [55], [83]; **ICLR:** [126]; **CVPR:** [22], [27], [79], [106]; **ICML:** [105]; **ECCV:** [14], [15], [28], [57], [64], [94], [99], [104]; **NeurIPS:** [75], [86], [112], [181]  |
 |  2021  |  **ICLR:** [19], [56], [59], [134], [175], [196]; **ICLR:** [139], [171]; **CVPR:** [12], [13], [115], [116], [117], [118], [119], [132], [141], [147], [153], [160], [168], [187], [193]; IJCAI: [155], [195]; **ICML:** [73], [190]; **ICCV:** [129], [130], [133], [135], [138], [142], [143], [148], [149], [150], [158], [159], [194]; **MM:**  [131], [137], [146], [157]; **NeurIPS:** [136], [145], [152], [154], [198], [199], [200], [201], [202], [203], [204], [205], [206], [207], [208]  |
 |  2022  |  **AAAI:** [140]; **ICLR:** [213]; **CVPR:** [69], [182], [214]; **MM:** [211]  |
+|  2023  |  **WACV:** [215];   |
 
 | Top Journal  |  Papers  |
 |  ----  | ----  |
@@ -477,6 +480,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 **IXMAS** [[39]](https://hal.inria.fr/docs/00/54/46/29/PDF/cviu_motion_history_volumes.pdf) | Action recognition; 5 domains with 5 camera views, 10 subjects, and 5 actions; 1,650 samples | [7], [14], [67], [76] |
 **SYNTHIA** [[42]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.pdf) | Semantic segmentation; 15 domains with 4 locations and 5 weather conditions; 2,700 samples | [27], [62], [115], [141], [151], [185], [193]  | 
 **GTA5-Cityscapes** [[43]](https://linkspringer.53yu.com/chapter/10.1007/978-3-319-46475-6_7), [[44]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf) | Semantic segmentation; 2 domains of synthetic-to-real generalization; 29,966 samples | [62], [115], [185], [193]  |
+**Cityscapes-ACDC** [[original]](https://acdc.vision.ee.ethz.ch/overview), [[44]](http://openaccess.thecvf.com/content_cvpr_2016/papers/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.pdf) | Semantic segmentation; real life domain shifts, ACDC contains four different weather conditions: rain, fog, snow, night | [215]  |
 **Terra Incognita (TerraInc)** [[45]](http://openaccess.thecvf.com/content_ECCV_2018/papers/Beery_Recognition_in_Terra_ECCV_2018_paper.pdf) ([1](https://lilablobssc.blob.core.windows.net/caltechcameratraps/eccv_18_all_images_sm.tar.gz) and [2](https://lilablobssc.blob.core.windows.net/caltechcameratraps/labels/caltech_camera_traps.json.zip); or [original](https://lila.science/datasets/caltech-camera-traps)) | Animal classification; 4 domains captured at different geographical locations: {L100, L38, L43, L46}; 24,788 samples of dimension (3, 224, 224); 10 classes; 6.0 GB + 8.6 MB | [132], [136], [138], [140], [173], [201], [202], [207], [212], [214]  |
 **Market-Duke** [[46]](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Scalable_Person_Re-Identification_ICCV_2015_paper.pdf), [[47]](https://linkspringer.53yu.com/chapter/10.1007/978-3-319-48881-3_2) | Person re-idetification; cross-dataset re-ID; heterogeneous DG with 2 domains; 69,079 samples | [12], [13], [28], [55], [56], [58], [114], [144], [187], [208]  |
 <!-- **UCF-HMDB** [[40](https://arxiv.53yu.com/pdf/1212.0402.pdf?ref=https://githubhelp.com)], [[41](https://dspace.mit.edu/bitstream/handle/1721.1/69981/Poggio-HMDB.pdf?sequence=1&isAllowed=y)] | Action recognition | 2 domains with 12 overlapping actions; 3809 samples |  | -->
@@ -505,7 +509,7 @@ Feel free to contribute to our repository.
 
 - If you woulk like to *correct mistakes*, please do it directly;
 - If you would like to *add/update papers*, please finish the following tasks (if necessary):
-    1. Find the max index (current max: **[214]**, not used: none), and create a new one.
+    1. Find the max index (current max: **[215]**, not used: none), and create a new one.
     2. Update [Publications](#publications).
     3. Update [Papers](#papers).
     4. Update [Datasets](#datasets).
