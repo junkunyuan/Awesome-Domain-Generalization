@@ -312,6 +312,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Quantifying and Improving Transferability in Domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/5adaacd4531b78ff8b5cedfe3f4d5212-Paper.pdf)] [[Code](https://github.com/Gordon-Guojun-Zhang/Transferability-NeurIPS2021)] [206]
 - Gradient Matching for Domain Generalization [[ICLR 2022](https://arxiv.org/pdf/2104.09937)] [[Code](https://github.com/YugeTen/fish)] (**Fish**) [224]
 - Fishr: Invariant Gradient Variances for Our-of-distribution Generalization [[ICML 2022](https://arxiv.org/pdf/2109.02934)] [[Code](https://github.com/alexrame/fishr)] (**Fishr**) [173]
+- Global-Local Regularization Via Distributional Robustness [[AISTATS 2023]](https://arxiv.org/abs/2203.00553) [[Code](https://github.com/VietHoang1512/GLOT)] (**GLOT**) [231]
 
 
 ### Normalization-Based Methods
