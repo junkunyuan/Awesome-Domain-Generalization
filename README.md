@@ -537,7 +537,7 @@ Feel free to contribute to our repository.
 
 - If you would like to *correct mistakes*, please do it directly;
 - If you would like to *add/update papers*, please finish the following tasks (if necessary):
-    1. Find the max index (current max: **[231]**, not used: none), and create a new one.
+    1. Find the max index (current max: **[232]**, not used: none), and create a new one.
     2. Update [Publications](#publications).
     3. Update [Papers](#papers).
     4. Update [Datasets](#datasets).
