@@ -135,7 +135,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - On Calibration and Out-of-domain Generalization [[NeurIPS 2021](https://proceedings.neurips.cc/paper/2021/file/118bd558033a1016fcc82560c65cca5f-Paper.pdf)] [154]
 - Domain-invariant Feature Exploration for Domain Generalization [[TMLR 2022](https://arxiv.org/pdf/2207.12020)] [[Code](https://github.com/jindongwang/transferlearning/tree/master/code/DeepDG)] (**DIFEX**) [209]
 - Cross-Domain Ensemble Distillation for Domain Generalization [[ECCV 2022](https://arxiv.org/pdf/2211.14058)] (**XDED**) [94]
-
+- Domain Generalisation via Risk Distribution Matching [[WACV 2024](https://arxiv.org/abs/2310.18598)] [[Code](https://github.com/nktoan/risk-distribution-matching)] (**RDM**) [234]
 
 ### Data Augmentation-Based Methods
 > Data augmentation-based methods augment original data and train the model on the generated data to improve model robustness.
@@ -317,7 +317,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Gradient Matching for Domain Generalization [[ICLR 2022](https://arxiv.org/pdf/2104.09937)] [[Code](https://github.com/YugeTen/fish)] (**Fish**) [224]
 - Fishr: Invariant Gradient Variances for Our-of-distribution Generalization [[ICML 2022](https://arxiv.org/pdf/2109.02934)] [[Code](https://github.com/alexrame/fishr)] (**Fishr**) [173]
 - Global-Local Regularization Via Distributional Robustness [[AISTATS 2023]](https://arxiv.org/abs/2203.00553) [[Code](https://github.com/VietHoang1512/GLOT)] (**GLOT**) [231]
-
+- Domain Generalisation via Risk Distribution Matching [[WACV 2024](https://arxiv.org/abs/2310.18598)] [[Code](https://github.com/nktoan/risk-distribution-matching)] (**RDM**) [234]
 
 ### Normalization-Based Methods
 > Normalization-based methods calibrate data from different domains by normalizing them with their statistic.
@@ -359,6 +359,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - Domain Generalization via Contrastive Causal Learning [[arXiv 2022](https://arxiv.org/abs/2210.02655)] (**CCM**) [212]
 - Invariant Causal Mechanisms through Distribution Matching [[arXiv 2022](https://arxiv.org/pdf/2206.11646)] [[Code*](https://github.com/facebookresearch/DomainBed)] (**CausIRL-CORAL**, **CausIRL-MMD**) [216]
 - Invariant Information Bottleneck for Domain Generalization [[AAAI 2022](https://arxiv.org/pdf/2106.06333)] [[Code](https://github.com/Luodian/IIB/tree/IIB)] (**IIB**) [140]
+- Causal Inference via Style Transfer for Out-of-distribution Generalisation [[KDD 2023](https://arxiv.org/abs/2212.03063)] [[Code](https://github.com/nktoan/Causal-Inference-via-Style-Transfer-for-OOD-Generalisation)] (**FAST, FAFT, FAGT**) [233]
 
 ### Inference-Time-Based Methods
 > Inference-time-based methods leverage the unlabeled target data, which is available at inference-time, to improve generalization performance without further model training.
@@ -537,7 +538,7 @@ Feel free to contribute to our repository.
 
 - If you would like to *correct mistakes*, please do it directly;
 - If you would like to *add/update papers*, please finish the following tasks (if necessary):
-    1. Find the max index (current max: **[232]**, not used: none), and create a new one.
+    1. Find the max index (current max: **[234]**, not used: none), and create a new one.
     2. Update [Publications](#publications).
     3. Update [Papers](#papers).
     4. Update [Datasets](#datasets).
