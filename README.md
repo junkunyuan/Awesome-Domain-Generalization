@@ -538,6 +538,7 @@ If you would like to contribute to our repository or have any questions/advice, 
 - A collection of domain generalization papers organized by [jindongwang](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization).
 - A collection of papers on domain generalization, domain adaptation, causality, robustness, prompt, optimization, generative model, etc, organized by [yfzhang114](https://github.com/yfzhang114/Generalization-Causality).
 - Adaptation and Generalization Across Domains in Visual Recognition with Deep Neural Networks [[PhD 2020, Kaiyang Zhou (University of Surrey)](https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/Adaptation-and-Generalization-Across-Domains-in/99513024202346)] [164]
+- Cross-validation, and the split that hides a model's failure: a worked example of random k-fold vs leave-one-group-out evaluation [[Blog 2026, David Mashiah](https://davidmashiah.com/notes/cross-validation)].
 
 # Contributing & Contact
 Feel free to contribute to our repository.
